@@ -1,0 +1,22 @@
+<!-- item_menu.xml -->
+<LinearLayout
+    android:id="@+id/menu_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+  >
+    <TextView
+        android:id="@+id/menu_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="14sp"
+        android:layout_marginLeft="10dp"
+        android:height="40dp"
+        android:layout_marginRight="10dp"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+    android:layout_gravity="center"
+    />
+</LinearLayout>

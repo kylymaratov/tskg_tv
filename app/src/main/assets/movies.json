@@ -1,0 +1,1934 @@
+{
+  "result": [
+    {
+      "title": "Новинки",
+      "details": [
+        {
+          "movie_id": "/show/lisa",
+          "poster_url": "https://www.ts.kg//posters/lisa.png",
+          "title": "Лиса",
+          "genre": "Детектив",
+          "country": "Российская Федерация",
+          "year": "2024"
+        },
+        {
+          "movie_id": "/show/the_lord_of_the_rings_the_rings_of_power_dub",
+          "poster_url": "https://www.ts.kg//posters/the_lord_of_the_rings_the_rings_of_power_dub.png",
+          "title": "Властелин колец: Кольца власти",
+          "genre": "Боевик, Драма, Приключения, Фэнтези",
+          "country": "США",
+          "year": "2022"
+        },
+        {
+          "movie_id": "/show/yasak_elma_dub",
+          "poster_url": "https://www.ts.kg//posters/yasak_elma_dub.png",
+          "title": "Запретный плод",
+          "genre": "Драма",
+          "country": "Турция",
+          "year": "2018"
+        },
+        {
+          "movie_id": "/show/stalk",
+          "poster_url": "https://www.ts.kg//posters/stalk.png",
+          "title": "Киберсталкер",
+          "genre": "Драма, Криминал, Подростки, Триллер",
+          "country": "Франция",
+          "year": "2020"
+        },
+        {
+          "movie_id": "/show/x_men",
+          "poster_url": "https://www.ts.kg//posters/x_men.png",
+          "title": "Люди Икс. Коллекция",
+          "genre": "Marvel, Боевик, Возраст: 12+, Возраст: 18+, Комедия, Полнометражный, Приключения, Триллер, Фантастика",
+          "country": "США",
+          "year": "2000"
+        },
+        {
+          "movie_id": "/show/simpsons",
+          "poster_url": "https://www.ts.kg//posters/simpsons.png",
+          "title": "Симпсоны",
+          "genre": "Комедия, Пародия",
+          "country": "США",
+          "year": "1989"
+        },
+        {
+          "movie_id": "/show/the_judge_from_hell",
+          "poster_url": "https://www.ts.kg//posters/the_judge_from_hell.png",
+          "title": "Судья из ада",
+          "genre": "Драма, Криминал, Фэнтези",
+          "country": "Республика Корея",
+          "year": "2024"
+        },
+        {
+          "movie_id": "/show/pacanki",
+          "poster_url": "https://www.ts.kg//posters/pacanki.png",
+          "title": "Пацанки",
+          "genre": "Реалити-шоу",
+          "country": "Российская Федерация",
+          "year": "2016"
+        },
+        {
+          "movie_id": "/show/shingeki_no_kyojin",
+          "poster_url": "https://www.ts.kg//posters/shingeki_no_kyojin.png",
+          "title": "Вторжение Титанов | Атака титанов",
+          "genre": "Драма, Приключения, Фэнтези",
+          "country": "Япония",
+          "year": "2013"
+        },
+        {
+          "movie_id": "/show/spongebob",
+          "poster_url": "https://www.ts.kg//posters/spongebob.png",
+          "title": "Губка Боб квадратные штаны",
+          "genre": "Комедия",
+          "country": "США",
+          "year": "1999"
+        },
+        {
+          "movie_id": "/show/the_grand_tour",
+          "poster_url": "https://www.ts.kg//posters/the_grand_tour.png",
+          "title": "Гранд тур",
+          "genre": "Авто, Развлекательное шоу, Юмористическое шоу",
+          "country": "США",
+          "year": "2016"
+        },
+        {
+          "movie_id": "/show/tinker_bell_collection",
+          "poster_url": "https://www.ts.kg//posters/tinker_bell_collection.png",
+          "title": "Феи. Коллекция",
+          "genre": "Детям, Мультфильм, Приключения, Семейный",
+          "country": "США",
+          "year": "2008-2015"
+        },
+        {
+          "movie_id": "/show/trigger",
+          "poster_url": "https://www.ts.kg//posters/trigger.png",
+          "title": "Триггер",
+          "genre": "Драма",
+          "country": "Российская Федерация",
+          "year": "2020"
+        },
+        {
+          "movie_id": "/show/criminal_minds",
+          "poster_url": "https://www.ts.kg//posters/criminal_minds.png",
+          "title": "Мыслить как преступник",
+          "genre": "Боевик, Детектив, Драма, Криминал, Приключения",
+          "country": "США",
+          "year": "2005"
+        },
+        {
+          "movie_id": "/show/yabani",
+          "poster_url": "https://www.ts.kg//posters/yabani.png",
+          "title": "Дикий",
+          "genre": "Драма, Мелодрама",
+          "country": "Турция",
+          "year": "2023"
+        },
+        {
+          "movie_id": "/show/brassic",
+          "poster_url": "https://www.ts.kg//posters/brassic.png",
+          "title": "Без гроша | Голяк",
+          "genre": "Комедия, Приключения",
+          "country": "Великобритания",
+          "year": "2019"
+        },
+        {
+          "movie_id": "/show/harry_potter",
+          "poster_url": "https://www.ts.kg//posters/harry_potter.png",
+          "title": "Гарри Поттер. Коллекция",
+          "genre": "Возраст: 12+, Подростки, Полнометражный, Приключения, Семейный, Фэнтези, Экранизация",
+          "country": "США",
+          "year": "2001-2021"
+        },
+        {
+          "movie_id": "/show/south_park",
+          "poster_url": "https://www.ts.kg//posters/south_park.png",
+          "title": "Южный парк",
+          "genre": "Комедия",
+          "country": "США",
+          "year": "1997"
+        },
+        {
+          "movie_id": "/show/gyeongseong_creature",
+          "poster_url": "https://www.ts.kg//posters/gyeongseong_creature.png",
+          "title": "Существо из Кёнсона | Кёнсонское существо",
+          "genre": "Драма, Исторический, Триллер",
+          "country": "Республика Корея",
+          "year": "2023"
+        },
+        {
+          "movie_id": "/show/chto_bylo_dalshe",
+          "poster_url": "https://www.ts.kg//posters/chto_bylo_dalshe.png",
+          "title": "ЧТО БЫЛО ДАЛЬШЕ?",
+          "genre": "Интервью, Юмористическое шоу",
+          "country": "Российская Федерация",
+          "year": "2019"
+        },
+        {
+          "movie_id": "/show/kimetsu_no_yaiba",
+          "poster_url": "https://www.ts.kg//posters/kimetsu_no_yaiba.png",
+          "title": "Клинок, рассекающий демонов | Истребитель демонов",
+          "genre": "Боевик, Исторический, Приключения, Сёнен, Фэнтези",
+          "country": "Япония",
+          "year": "2019"
+        },
+        {
+          "movie_id": "/show/avatar_the_legend_of_korra",
+          "poster_url": "https://www.ts.kg//posters/avatar_the_legend_of_korra.png",
+          "title": "Аватар: Легенда о Корре",
+          "genre": "Боевик, Приключения, Фэнтези",
+          "country": "США",
+          "year": "2012-2014"
+        },
+        {
+          "movie_id": "/show/hells_kitchen",
+          "poster_url": "https://www.ts.kg//posters/hells_kitchen.png",
+          "title": "Адская кухня",
+          "genre": "Кулинария, Реалити-шоу",
+          "country": "США",
+          "year": "2005"
+        },
+        {
+          "movie_id": "/show/justice_league_crisis_on_infinite_earths",
+          "poster_url": "https://www.ts.kg//posters/justice_league_crisis_on_infinite_earths.png",
+          "title": "Лига Справедливости: Кризис на бесконечных землях",
+          "genre": "DC, Боевик, Мультфильм, Полнометражный, Приключения, Фантастика, Фэнтези",
+          "country": "США",
+          "year": "2024"
+        },
+        {
+          "movie_id": "/show/shef",
+          "poster_url": "https://www.ts.kg//posters/shef.png",
+          "title": "Шеф",
+          "genre": "Драма, Криминал",
+          "country": "Российская Федерация",
+          "year": "2012"
+        },
+        {
+          "movie_id": "/show/emily_in_paris",
+          "poster_url": "https://www.ts.kg//posters/emily_in_paris.png",
+          "title": "Эмили в Париже",
+          "genre": "Драма, Комедия",
+          "country": "США",
+          "year": "2020"
+        },
+        {
+          "movie_id": "/show/cukur",
+          "poster_url": "https://www.ts.kg//posters/cukur.png",
+          "title": "Чукур (Яма)",
+          "genre": "Драма, Мелодрама",
+          "country": "Турция",
+          "year": "2017-2021"
+        },
+        {
+          "movie_id": "/show/la_casa_de_papel_dub",
+          "poster_url": "https://www.ts.kg//posters/la_casa_de_papel_dub.png",
+          "title": "Бумажный дом",
+          "genre": "Драма, Криминал, Триллер",
+          "country": "Испания",
+          "year": "2017"
+        },
+        {
+          "movie_id": "/show/marvel_saga_beskonechnosti",
+          "poster_url": "https://www.ts.kg//posters/marvel_saga_beskonechnosti.png",
+          "title": "Marvel. Сага Бесконечности",
+          "genre": "Marvel, Боевик, Возраст: 12+, Полнометражный, Приключения, Суперспособности, Фантастика",
+          "country": "США",
+          "year": "2008"
+        },
+        {
+          "movie_id": "/show/rick_and_morty",
+          "poster_url": "https://www.ts.kg//posters/rick_and_morty.png",
+          "title": "Рик и Морти",
+          "genre": "Комедия, Приключения, Фантастика",
+          "country": "США",
+          "year": "2013"
+        },
+        {
+          "movie_id": "/show/5_32",
+          "poster_url": "https://www.ts.kg//posters/5_32.png",
+          "title": "5:32",
+          "genre": "Детектив, Триллер",
+          "country": "Казахстан",
+          "year": "2021"
+        },
+        {
+          "movie_id": "/show/adskii_shef",
+          "poster_url": "https://www.ts.kg//posters/adskii_shef.png",
+          "title": "Адский шеф",
+          "genre": "Кулинария, Реалити-шоу",
+          "country": "Российская Федерация",
+          "year": "2022"
+        },
+        {
+          "movie_id": "/show/jujutsu_kaisen",
+          "poster_url": "https://www.ts.kg//posters/jujutsu_kaisen.png",
+          "title": "Магическая битва",
+          "genre": "Приключения, Фэнтези",
+          "country": "Япония",
+          "year": "2020"
+        },
+        {
+          "movie_id": "/show/gravity_falls",
+          "poster_url": "https://www.ts.kg//posters/gravity_falls.png",
+          "title": "Гравити Фолз",
+          "genre": "Детектив, Детям, Комедия, Мультфильм, Семейный, Фантастика",
+          "country": "США",
+          "year": "2012-2016"
+        },
+        {
+          "movie_id": "/show/unsolved_mysteries",
+          "poster_url": "https://www.ts.kg//posters/unsolved_mysteries.png",
+          "title": "Неразгаданные тайны",
+          "genre": "Документальный, Мистика",
+          "country": "США",
+          "year": "2020"
+        },
+        {
+          "movie_id": "/show/tri_bogatyrya",
+          "poster_url": "https://www.ts.kg//posters/tri_bogatyrya.png",
+          "title": "Три богатыря",
+          "genre": "Комедия, Мультфильм, Полнометражный, Приключения, Семейный",
+          "country": "Российская Федерация",
+          "year": "2010"
+        },
+        {
+          "movie_id": "/show/trassa_2024",
+          "poster_url": "https://www.ts.kg//posters/trassa_2024.png",
+          "title": "Трасса (2024)",
+          "genre": "Драма, Триллер",
+          "country": "Российская Федерация",
+          "year": "2024"
+        },
+        {
+          "movie_id": "/show/breaking_bad",
+          "poster_url": "https://www.ts.kg//posters/breaking_bad.png",
+          "title": "Во все тяжкие",
+          "genre": "Драма, Криминал",
+          "country": "США",
+          "year": "2008-2013"
+        },
+        {
+          "movie_id": "/show/bir_gece_masali",
+          "poster_url": "https://www.ts.kg//posters/bir_gece_masali.png",
+          "title": "Ночная сказка",
+          "genre": "Драма",
+          "country": "Турция",
+          "year": "2024"
+        },
+        {
+          "movie_id": "/show/slow_horses",
+          "poster_url": "https://www.ts.kg//posters/slow_horses.png",
+          "title": "Медленные лошади | Хромые кони",
+          "genre": "Драма, Триллер",
+          "country": "Великобритания",
+          "year": "2022"
+        },
+        {
+          "movie_id": "/show/the_hobbit_the_lord_of_the_rings",
+          "poster_url": "https://www.ts.kg//posters/the_hobbit_the_lord_of_the_rings.png",
+          "title": "Хоббит + Властелин колец. Коллекция",
+          "genre": "Возраст: 12+, Полнометражный, Приключения, Семейный, Фэнтези, Экранизация",
+          "country": "США",
+          "year": "2001-2014"
+        },
+        {
+          "movie_id": "/show/family_guy",
+          "poster_url": "https://www.ts.kg//posters/family_guy.png",
+          "title": "Гриффины",
+          "genre": "Комедия, Мюзикл, Пародия",
+          "country": "США",
+          "year": "1999"
+        },
+        {
+          "movie_id": "/show/marry_my_husband",
+          "poster_url": "https://www.ts.kg//posters/marry_my_husband.png",
+          "title": "Выходи замуж за моего мужа",
+          "genre": "Драма, Романтика, Фантастика",
+          "country": "Республика Корея",
+          "year": "2024"
+        },
+        {
+          "movie_id": "/show/mama_v_16",
+          "poster_url": "https://www.ts.kg//posters/mama_v_16.png",
+          "title": "Мама в 16",
+          "genre": "Развлекательное шоу, Реалити-шоу",
+          "country": "Российская Федерация",
+          "year": "2024"
+        },
+        {
+          "movie_id": "/show/tensei_shitara_slime_datta_ken",
+          "poster_url": "https://www.ts.kg//posters/tensei_shitara_slime_datta_ken.png",
+          "title": "О моём перерождении в слизь",
+          "genre": "Драма, Комедия, Приключения, Фэнтези",
+          "country": "Япония",
+          "year": "2018"
+        },
+        {
+          "movie_id": "/show/masha_i_medved",
+          "poster_url": "https://www.ts.kg//posters/masha_i_medved.png",
+          "title": "Маша и Медведь",
+          "genre": "Семейный",
+          "country": "Российская Федерация",
+          "year": "2013-2015"
+        },
+        {
+          "movie_id": "/show/podium",
+          "poster_url": "https://www.ts.kg//posters/podium.png",
+          "title": "Проект Подиум",
+          "genre": "Мода, Реалити-шоу",
+          "country": "США",
+          "year": "2004"
+        },
+        {
+          "movie_id": "/show/inside_out",
+          "poster_url": "https://www.ts.kg//posters/inside_out.png",
+          "title": "Головоломка. Дилогия",
+          "genre": "Детям, Комедия, Мультфильм, Полнометражный, Семейный, Фэнтези",
+          "country": "США",
+          "year": "2015-2024"
+        },
+        {
+          "movie_id": "/show/protivostoyanie_2024",
+          "poster_url": "https://www.ts.kg//posters/protivostoyanie_2024.png",
+          "title": "Противостояние (2024)",
+          "genre": "Детектив, Экранизация",
+          "country": "Российская Федерация",
+          "year": "2024"
+        },
+        {
+          "movie_id": "/show/bones",
+          "poster_url": "https://www.ts.kg//posters/bones.png",
+          "title": "Кости",
+          "genre": "Детектив, Драма, Комедия, Криминал, Мелодрама",
+          "country": "США",
+          "year": "2005-2017"
+        },
+        {
+          "movie_id": "/show/yargi",
+          "poster_url": "https://www.ts.kg//posters/yargi.png",
+          "title": "Осуждение | Приговор | Правосудие",
+          "genre": "Драма",
+          "country": "Турция",
+          "year": "2021"
+        },
+        {
+          "movie_id": "/show/a_discovery_of_witches_kvk",
+          "poster_url": "https://www.ts.kg//posters/a_discovery_of_witches_kvk.png",
+          "title": "Манускрипт всевластия | Открытие ведьм",
+          "genre": "Драма, Мелодрама, Фэнтези",
+          "country": "Великобритания",
+          "year": "2018-2022"
+        },
+        {
+          "movie_id": "/show/twilight_saga_anthology",
+          "poster_url": "https://www.ts.kg//posters/twilight_saga_anthology.png",
+          "title": "Сумерки. Сага. Коллекция",
+          "genre": "Возраст: 12+, Драма, Мелодрама, Полнометражный, Фэнтези",
+          "country": "США",
+          "year": "2008-2012"
+        },
+        {
+          "movie_id": "/show/love_death_and_robots",
+          "poster_url": "https://www.ts.kg//posters/love_death_and_robots.png",
+          "title": "Любовь, смерть и роботы",
+          "genre": "Комедия, Мультфильм, Ужасы, Фантастика, Фэнтези",
+          "country": "США",
+          "year": "2019"
+        },
+        {
+          "movie_id": "/show/no_gain_no_love",
+          "poster_url": "https://www.ts.kg//posters/no_gain_no_love.png",
+          "title": "Не хочу ничего терять",
+          "genre": "Дорама, Комедия, Мелодрама",
+          "country": "Республика Корея",
+          "year": "2024"
+        },
+        {
+          "movie_id": "/show/pervye_na_depevne",
+          "poster_url": "https://www.ts.kg//posters/pervye_na_depevne.png",
+          "title": "Первые на деревне",
+          "genre": "Реалити-шоу",
+          "country": "Российская Федерация",
+          "year": "2024"
+        },
+        {
+          "movie_id": "/show/tsue_to_tsurugi_no_wistoria",
+          "poster_url": "https://www.ts.kg//posters/tsue_to_tsurugi_no_wistoria.png",
+          "title": "Меч и жезл Вистории",
+          "genre": "Боевик, Приключения, Романтика, Фэнтези",
+          "country": "Япония",
+          "year": "2024"
+        },
+        {
+          "movie_id": "/show/the_owl_house",
+          "poster_url": "https://www.ts.kg//posters/the_owl_house.png",
+          "title": "Совиный дом (Дом совы)",
+          "genre": "Детям, Комедия, Мультфильм, Приключения, Ужасы, Фантастика",
+          "country": "США",
+          "year": "2020"
+        },
+        {
+          "movie_id": "/show/pawn_stars",
+          "poster_url": "https://www.ts.kg//posters/pawn_stars.png",
+          "title": "Звёзды ломбарда",
+          "genre": "Бизнес, Документальный, Развлекательное шоу",
+          "country": "США",
+          "year": "2009"
+        },
+        {
+          "movie_id": "/show/kung_fu_panda_full",
+          "poster_url": "https://www.ts.kg//posters/kung_fu_panda_full.png",
+          "title": "Кунг-Фу Панда. Коллекция",
+          "genre": "Боевик, Детям, Комедия, Мультфильм, Семейный",
+          "country": "США",
+          "year": "2008-2024"
+        },
+        {
+          "movie_id": "/show/tensei_kizoku_kantei_skill_de_nariagaru",
+          "poster_url": "https://www.ts.kg//posters/tensei_kizoku_kantei_skill_de_nariagaru.png",
+          "title": "Перерождение в аристократа со способностью анализа",
+          "genre": "Приключения, Фэнтези",
+          "country": "Япония",
+          "year": "2024"
+        },
+        {
+          "movie_id": "/show/gremlins_secrets_of_the_mogwai",
+          "poster_url": "https://www.ts.kg//posters/gremlins_secrets_of_the_mogwai.png",
+          "title": "Гремлины: Тайны могвая",
+          "genre": "Детям, Комедия, Мультфильм, Приключения, Семейный, Фэнтези",
+          "country": "США",
+          "year": "2023"
+        },
+        {
+          "movie_id": "/show/bobs_burgers",
+          "poster_url": "https://www.ts.kg//posters/bobs_burgers.png",
+          "title": "Закусочная Боба",
+          "genre": "Комедия",
+          "country": "США",
+          "year": "2011"
+        },
+        {
+          "movie_id": "/show/nageki_no_bourei_wa_intai_shitai",
+          "poster_url": "https://www.ts.kg//posters/nageki_no_bourei_wa_intai_shitai.png",
+          "title": "Плачущий призрак на пенсии",
+          "genre": "Приключения, Фэнтези",
+          "country": "Япония",
+          "year": "2024"
+        },
+        {
+          "movie_id": "/show/podrostki_v_kosmose",
+          "poster_url": "https://www.ts.kg//posters/podrostki_v_kosmose.png",
+          "title": "Подростки в космосе",
+          "genre": "Детектив, Подростки, Приключения, Фантастика",
+          "country": "Российская Федерация",
+          "year": "2024"
+        },
+        {
+          "movie_id": "/show/kamp_koral_spongebob_s_under_years",
+          "poster_url": "https://www.ts.kg//posters/kamp_koral_spongebob_s_under_years.png",
+          "title": "Лагерь \"Коралл\": детство Губки Боба",
+          "genre": "Комедия, Мультфильм, Семейный",
+          "country": "США",
+          "year": "2021"
+        },
+        {
+          "movie_id": "/show/room_no_9",
+          "poster_url": "https://www.ts.kg//posters/room_no_9.png",
+          "title": "Комната №9 | Комната 9 | Камера №9 | Комната номер девять",
+          "genre": "Детектив, Драма, Криминал, Фантастика, Фэнтези",
+          "country": "Республика Корея",
+          "year": "2018"
+        },
+        {
+          "movie_id": "/show/sever",
+          "poster_url": "https://www.ts.kg//posters/sever.png",
+          "title": "Север | К Северу",
+          "genre": "Детектив, Драма, Криминал, Триллер",
+          "country": "Чехия",
+          "year": "2019"
+        },
+        {
+          "movie_id": "/show/nastenka",
+          "poster_url": "https://www.ts.kg//posters/nastenka.png",
+          "title": "Настенька",
+          "genre": "Детектив",
+          "country": "Российская Федерация",
+          "year": "2023"
+        },
+        {
+          "movie_id": "/show/4_minutes",
+          "poster_url": "https://www.ts.kg//posters/4_minutes.png",
+          "title": "4 минуты",
+          "genre": "Драма, Триллер, Фантастика",
+          "country": "Таиланд",
+          "year": "2024"
+        },
+        {
+          "movie_id": "/show/unsolved_mysteries",
+          "poster_url": "https://www.ts.kg//posters/unsolved_mysteries.png",
+          "title": "Неразгаданные тайны",
+          "genre": "Документальный, Мистика",
+          "country": "США",
+          "year": "2020"
+        },
+        {
+          "movie_id": "/show/stiny_v_mlze",
+          "poster_url": "https://www.ts.kg//posters/stiny_v_mlze.png",
+          "title": "Тени в тумане",
+          "genre": "Детектив, Драма, Криминал",
+          "country": "Чехия",
+          "year": "2022-2024"
+        },
+        {
+          "movie_id": "/show/blondy",
+          "poster_url": "https://www.ts.kg//posters/blondy.png",
+          "title": "Блонды",
+          "genre": "Детектив, Криминал",
+          "country": "Российская Федерация",
+          "year": "2024"
+        },
+        {
+          "movie_id": "/show/murdoch_mysteries",
+          "poster_url": "https://www.ts.kg//posters/murdoch_mysteries.png",
+          "title": "Расследования Мердока",
+          "genre": "Детектив",
+          "country": "Канада",
+          "year": "2008"
+        },
+        {
+          "movie_id": "/show/amura",
+          "poster_url": "https://www.ts.kg//posters/amura.png",
+          "title": "Амура",
+          "genre": "Боевик, Драма, Криминал",
+          "country": "Российская Федерация",
+          "year": "2024"
+        },
+        {
+          "movie_id": "/show/vkus_mesti",
+          "poster_url": "https://www.ts.kg//posters/vkus_mesti.png",
+          "title": "Вкус мести",
+          "genre": "Детектив, Драма, Мелодрама",
+          "country": "Российская Федерация",
+          "year": "2021"
+        },
+        {
+          "movie_id": "/show/road_home",
+          "poster_url": "https://www.ts.kg//posters/road_home.png",
+          "title": "Дорога домой",
+          "genre": "Мелодрама, Романтика",
+          "country": "Китай",
+          "year": "2023"
+        },
+        {
+          "movie_id": "/show/simpsons",
+          "poster_url": "https://www.ts.kg//posters/simpsons.png",
+          "title": "Симпсоны",
+          "genre": "Комедия, Пародия",
+          "country": "США",
+          "year": "1989"
+        },
+        {
+          "movie_id": "/show/krapopolis",
+          "poster_url": "https://www.ts.kg//posters/krapopolis.png",
+          "title": "Крапополис",
+          "genre": "Комедия, Мультфильм, Фэнтези",
+          "country": "США",
+          "year": "2023"
+        },
+        {
+          "movie_id": "/show/giants_of_la_mancha",
+          "poster_url": "https://www.ts.kg//posters/giants_of_la_mancha.png",
+          "title": "Гиганты Ла-Манша",
+          "genre": "Детям, Мультфильм, Полнометражный, Приключения, Семейный",
+          "country": "Аргентина",
+          "year": "2024"
+        },
+        {
+          "movie_id": "/show/discovering_langkawi_with_irshad_mobarak",
+          "poster_url": "https://www.ts.kg//posters/discovering_langkawi_with_irshad_mobarak.png",
+          "title": "Открываем Лангкави",
+          "genre": "Документальный, Познавательный, Фауна, Флора",
+          "country": "Малайзия",
+          "year": "2017"
+        },
+        {
+          "movie_id": "/show/borec",
+          "poster_url": "https://www.ts.kg//posters/borec.png",
+          "title": "Борец",
+          "genre": "Драма, Спорт",
+          "country": "Российская Федерация",
+          "year": "2017"
+        },
+        {
+          "movie_id": "/show/maou_sama_retry",
+          "poster_url": "https://www.ts.kg//posters/maou_sama_retry.png",
+          "title": "Владыка Демонов, по новой! | Король демонов, попытайтесь снова!",
+          "genre": "Боевик, Приключения, Фэнтези",
+          "country": "Япония",
+          "year": "2019"
+        },
+        {
+          "movie_id": "/show/the_princess_royal",
+          "poster_url": "https://www.ts.kg//posters/the_princess_royal.png",
+          "title": "Великая принцесса",
+          "genre": "Мелодрама, Фэнтези",
+          "country": "Китай",
+          "year": "2024"
+        },
+        {
+          "movie_id": "/show/perevod_s_tureckogo",
+          "poster_url": "https://www.ts.kg//posters/perevod_s_tureckogo.png",
+          "title": "Перевод с турецкого",
+          "genre": "Мелодрама",
+          "country": "Российская Федерация",
+          "year": "2024"
+        },
+        {
+          "movie_id": "/show/hitoribocchi_no_isekai_kouryaku_loner_life_in_another_world",
+          "poster_url": "https://www.ts.kg//posters/hitoribocchi_no_isekai_kouryaku_loner_life_in_another_world.png",
+          "title": "Нападение одиночки на иной мир",
+          "genre": "Боевик, Исекай, Приключения, Фэнтези",
+          "country": "Япония",
+          "year": "2024"
+        },
+        {
+          "movie_id": "/show/sky_river_of_the_himalayas",
+          "poster_url": "https://www.ts.kg//posters/sky_river_of_the_himalayas.png",
+          "title": "Небесная река Гималаев",
+          "genre": "Документальный, Путешествие",
+          "country": "Австрия",
+          "year": "2017"
+        },
+        {
+          "movie_id": "/show/open_mic",
+          "poster_url": "https://www.ts.kg//posters/open_mic.png",
+          "title": "Open Mic",
+          "genre": "Развлекательное шоу, Юмористическое шоу",
+          "country": "Российская Федерация",
+          "year": "2023"
+        },
+        {
+          "movie_id": "/show/mama_v_16",
+          "poster_url": "https://www.ts.kg//posters/mama_v_16.png",
+          "title": "Мама в 16",
+          "genre": "Развлекательное шоу, Реалити-шоу",
+          "country": "Российская Федерация",
+          "year": "2024"
+        },
+        {
+          "movie_id": "/show/gyeongseong_creature",
+          "poster_url": "https://www.ts.kg//posters/gyeongseong_creature.png",
+          "title": "Существо из Кёнсона | Кёнсонское существо",
+          "genre": "Драма, Исторический, Триллер",
+          "country": "Республика Корея",
+          "year": "2023"
+        },
+        {
+          "movie_id": "/show/the_lord_of_the_rings_the_rings_of_power_dub",
+          "poster_url": "https://www.ts.kg//posters/the_lord_of_the_rings_the_rings_of_power_dub.png",
+          "title": "Властелин колец: Кольца власти",
+          "genre": "Боевик, Драма, Приключения, Фэнтези",
+          "country": "США",
+          "year": "2022"
+        },
+        {
+          "movie_id": "/show/stalk",
+          "poster_url": "https://www.ts.kg//posters/stalk.png",
+          "title": "Киберсталкер",
+          "genre": "Драма, Криминал, Подростки, Триллер",
+          "country": "Франция",
+          "year": "2020"
+        },
+        {
+          "movie_id": "/show/simpsons",
+          "poster_url": "https://www.ts.kg//posters/simpsons.png",
+          "title": "Симпсоны",
+          "genre": "Комедия, Пародия",
+          "country": "США",
+          "year": "1989"
+        },
+        {
+          "movie_id": "/show/pacanki",
+          "poster_url": "https://www.ts.kg//posters/pacanki.png",
+          "title": "Пацанки",
+          "genre": "Реалити-шоу",
+          "country": "Российская Федерация",
+          "year": "2016"
+        },
+        {
+          "movie_id": "/show/spongebob",
+          "poster_url": "https://www.ts.kg//posters/spongebob.png",
+          "title": "Губка Боб квадратные штаны",
+          "genre": "Комедия",
+          "country": "США",
+          "year": "1999"
+        },
+        {
+          "movie_id": "/show/tinker_bell_collection",
+          "poster_url": "https://www.ts.kg//posters/tinker_bell_collection.png",
+          "title": "Феи. Коллекция",
+          "genre": "Детям, Мультфильм, Приключения, Семейный",
+          "country": "США",
+          "year": "2008-2015"
+        },
+        {
+          "movie_id": "/show/criminal_minds",
+          "poster_url": "https://www.ts.kg//posters/criminal_minds.png",
+          "title": "Мыслить как преступник",
+          "genre": "Боевик, Детектив, Драма, Криминал, Приключения",
+          "country": "США",
+          "year": "2005"
+        },
+        {
+          "movie_id": "/show/brassic",
+          "poster_url": "https://www.ts.kg//posters/brassic.png",
+          "title": "Без гроша | Голяк",
+          "genre": "Комедия, Приключения",
+          "country": "Великобритания",
+          "year": "2019"
+        },
+        {
+          "movie_id": "/show/south_park",
+          "poster_url": "https://www.ts.kg//posters/south_park.png",
+          "title": "Южный парк",
+          "genre": "Комедия",
+          "country": "США",
+          "year": "1997"
+        },
+        {
+          "movie_id": "/show/chto_bylo_dalshe",
+          "poster_url": "https://www.ts.kg//posters/chto_bylo_dalshe.png",
+          "title": "ЧТО БЫЛО ДАЛЬШЕ?",
+          "genre": "Интервью, Юмористическое шоу",
+          "country": "Российская Федерация",
+          "year": "2019"
+        },
+        {
+          "movie_id": "/show/avatar_the_legend_of_korra",
+          "poster_url": "https://www.ts.kg//posters/avatar_the_legend_of_korra.png",
+          "title": "Аватар: Легенда о Корре",
+          "genre": "Боевик, Приключения, Фэнтези",
+          "country": "США",
+          "year": "2012-2014"
+        },
+        {
+          "movie_id": "/show/justice_league_crisis_on_infinite_earths",
+          "poster_url": "https://www.ts.kg//posters/justice_league_crisis_on_infinite_earths.png",
+          "title": "Лига Справедливости: Кризис на бесконечных землях",
+          "genre": "DC, Боевик, Мультфильм, Полнометражный, Приключения, Фантастика, Фэнтези",
+          "country": "США",
+          "year": "2024"
+        },
+        {
+          "movie_id": "/show/emily_in_paris",
+          "poster_url": "https://www.ts.kg//posters/emily_in_paris.png",
+          "title": "Эмили в Париже",
+          "genre": "Драма, Комедия",
+          "country": "США",
+          "year": "2020"
+        },
+        {
+          "movie_id": "/show/la_casa_de_papel_dub",
+          "poster_url": "https://www.ts.kg//posters/la_casa_de_papel_dub.png",
+          "title": "Бумажный дом",
+          "genre": "Драма, Криминал, Триллер",
+          "country": "Испания",
+          "year": "2017"
+        },
+        {
+          "movie_id": "/show/rick_and_morty",
+          "poster_url": "https://www.ts.kg//posters/rick_and_morty.png",
+          "title": "Рик и Морти",
+          "genre": "Комедия, Приключения, Фантастика",
+          "country": "США",
+          "year": "2013"
+        },
+        {
+          "movie_id": "/show/adskii_shef",
+          "poster_url": "https://www.ts.kg//posters/adskii_shef.png",
+          "title": "Адский шеф",
+          "genre": "Кулинария, Реалити-шоу",
+          "country": "Российская Федерация",
+          "year": "2022"
+        },
+        {
+          "movie_id": "/show/gravity_falls",
+          "poster_url": "https://www.ts.kg//posters/gravity_falls.png",
+          "title": "Гравити Фолз",
+          "genre": "Детектив, Детям, Комедия, Мультфильм, Семейный, Фантастика",
+          "country": "США",
+          "year": "2012-2016"
+        },
+        {
+          "movie_id": "/show/tri_bogatyrya",
+          "poster_url": "https://www.ts.kg//posters/tri_bogatyrya.png",
+          "title": "Три богатыря",
+          "genre": "Комедия, Мультфильм, Полнометражный, Приключения, Семейный",
+          "country": "Российская Федерация",
+          "year": "2010"
+        },
+        {
+          "movie_id": "/show/breaking_bad",
+          "poster_url": "https://www.ts.kg//posters/breaking_bad.png",
+          "title": "Во все тяжкие",
+          "genre": "Драма, Криминал",
+          "country": "США",
+          "year": "2008-2013"
+        },
+        {
+          "movie_id": "/show/slow_horses",
+          "poster_url": "https://www.ts.kg//posters/slow_horses.png",
+          "title": "Медленные лошади | Хромые кони",
+          "genre": "Драма, Триллер",
+          "country": "Великобритания",
+          "year": "2022"
+        },
+        {
+          "movie_id": "/show/family_guy",
+          "poster_url": "https://www.ts.kg//posters/family_guy.png",
+          "title": "Гриффины",
+          "genre": "Комедия, Мюзикл, Пародия",
+          "country": "США",
+          "year": "1999"
+        },
+        {
+          "movie_id": "/show/mama_v_16",
+          "poster_url": "https://www.ts.kg//posters/mama_v_16.png",
+          "title": "Мама в 16",
+          "genre": "Развлекательное шоу, Реалити-шоу",
+          "country": "Российская Федерация",
+          "year": "2024"
+        },
+        {
+          "movie_id": "/show/masha_i_medved",
+          "poster_url": "https://www.ts.kg//posters/masha_i_medved.png",
+          "title": "Маша и Медведь",
+          "genre": "Семейный",
+          "country": "Российская Федерация",
+          "year": "2013-2015"
+        },
+        {
+          "movie_id": "/show/inside_out",
+          "poster_url": "https://www.ts.kg//posters/inside_out.png",
+          "title": "Головоломка. Дилогия",
+          "genre": "Детям, Комедия, Мультфильм, Полнометражный, Семейный, Фэнтези",
+          "country": "США",
+          "year": "2015-2024"
+        },
+        {
+          "movie_id": "/show/bones",
+          "poster_url": "https://www.ts.kg//posters/bones.png",
+          "title": "Кости",
+          "genre": "Детектив, Драма, Комедия, Криминал, Мелодрама",
+          "country": "США",
+          "year": "2005-2017"
+        },
+        {
+          "movie_id": "/show/a_discovery_of_witches_kvk",
+          "poster_url": "https://www.ts.kg//posters/a_discovery_of_witches_kvk.png",
+          "title": "Манускрипт всевластия | Открытие ведьм",
+          "genre": "Драма, Мелодрама, Фэнтези",
+          "country": "Великобритания",
+          "year": "2018-2022"
+        },
+        {
+          "movie_id": "/show/love_death_and_robots",
+          "poster_url": "https://www.ts.kg//posters/love_death_and_robots.png",
+          "title": "Любовь, смерть и роботы",
+          "genre": "Комедия, Мультфильм, Ужасы, Фантастика, Фэнтези",
+          "country": "США",
+          "year": "2019"
+        },
+        {
+          "movie_id": "/show/pervye_na_depevne",
+          "poster_url": "https://www.ts.kg//posters/pervye_na_depevne.png",
+          "title": "Первые на деревне",
+          "genre": "Реалити-шоу",
+          "country": "Российская Федерация",
+          "year": "2024"
+        },
+        {
+          "movie_id": "/show/the_owl_house",
+          "poster_url": "https://www.ts.kg//posters/the_owl_house.png",
+          "title": "Совиный дом (Дом совы)",
+          "genre": "Детям, Комедия, Мультфильм, Приключения, Ужасы, Фантастика",
+          "country": "США",
+          "year": "2020"
+        },
+        {
+          "movie_id": "/show/kung_fu_panda_full",
+          "poster_url": "https://www.ts.kg//posters/kung_fu_panda_full.png",
+          "title": "Кунг-Фу Панда. Коллекция",
+          "genre": "Боевик, Детям, Комедия, Мультфильм, Семейный",
+          "country": "США",
+          "year": "2008-2024"
+        }
+      ]
+    },
+    {
+      "title": "Популярные",
+      "details": [
+        {
+          "movie_id": "/show/kurulus_osman",
+          "poster_url": "https://www.ts.kg//posters/kurulus_osman.png",
+          "title": "Основание: Осман",
+          "genre": "Драма, Исторический",
+          "country": "Турция",
+          "year": "2019"
+        },
+        {
+          "movie_id": "/show/tensei_kizoku_kantei_skill_de_nariagaru",
+          "poster_url": "https://www.ts.kg//posters/tensei_kizoku_kantei_skill_de_nariagaru.png",
+          "title": "Перерождение в аристократа со способностью анализа",
+          "genre": "Приключения, Фэнтези",
+          "country": "Япония",
+          "year": "2024"
+        },
+        {
+          "movie_id": "/show/where_s_wanda",
+          "poster_url": "https://www.ts.kg//posters/where_s_wanda.png",
+          "title": "Куда пропала Ванда",
+          "genre": "Драма, Комедия",
+          "country": "Германия",
+          "year": "2024"
+        },
+        {
+          "movie_id": "/show/gremlins_secrets_of_the_mogwai",
+          "poster_url": "https://www.ts.kg//posters/gremlins_secrets_of_the_mogwai.png",
+          "title": "Гремлины: Тайны могвая",
+          "genre": "Детям, Комедия, Мультфильм, Приключения, Семейный, Фэнтези",
+          "country": "США",
+          "year": "2023"
+        },
+        {
+          "movie_id": "/show/the_legend_of_vox_machina",
+          "poster_url": "https://www.ts.kg//posters/the_legend_of_vox_machina.png",
+          "title": "Легенда Vox Machina | Легенда Вокс Машины",
+          "genre": "Боевик, Комедия, Мультфильм, Приключения, Фэнтези",
+          "country": "США",
+          "year": "2022"
+        },
+        {
+          "movie_id": "/show/bobs_burgers",
+          "poster_url": "https://www.ts.kg//posters/bobs_burgers.png",
+          "title": "Закусочная Боба",
+          "genre": "Комедия",
+          "country": "США",
+          "year": "2011"
+        },
+        {
+          "movie_id": "/show/vpervye",
+          "poster_url": "https://www.ts.kg//posters/vpervye.png",
+          "title": "Впервые",
+          "genre": "Комедия",
+          "country": "Российская Федерация",
+          "year": "2024"
+        },
+        {
+          "movie_id": "/show/nageki_no_bourei_wa_intai_shitai",
+          "poster_url": "https://www.ts.kg//posters/nageki_no_bourei_wa_intai_shitai.png",
+          "title": "Плачущий призрак на пенсии",
+          "genre": "Приключения, Фэнтези",
+          "country": "Япония",
+          "year": "2024"
+        },
+        {
+          "movie_id": "/show/rekishi_ni_nokoru_akujo_ni_naru_zo",
+          "poster_url": "https://www.ts.kg//posters/rekishi_ni_nokoru_akujo_ni_naru_zo.png",
+          "title": "Я стану злодейкой, которая войдёт в историю: Чем большей злодейкой я стану, тем больше понравлюсь принцу!",
+          "genre": "Исекай, Комедия, Романтика, Сёдзё, Фэнтези",
+          "country": "Япония",
+          "year": "2024"
+        },
+        {
+          "movie_id": "/show/podrostki_v_kosmose",
+          "poster_url": "https://www.ts.kg//posters/podrostki_v_kosmose.png",
+          "title": "Подростки в космосе",
+          "genre": "Детектив, Подростки, Приключения, Фантастика",
+          "country": "Российская Федерация",
+          "year": "2024"
+        },
+        {
+          "movie_id": "/show/el_ruso",
+          "poster_url": "https://www.ts.kg//posters/el_ruso.png",
+          "title": "Эль Русо",
+          "genre": "Детектив, Драма, Криминал",
+          "country": "Российская Федерация",
+          "year": "2024"
+        },
+        {
+          "movie_id": "/show/kamp_koral_spongebob_s_under_years",
+          "poster_url": "https://www.ts.kg//posters/kamp_koral_spongebob_s_under_years.png",
+          "title": "Лагерь \"Коралл\": детство Губки Боба",
+          "genre": "Комедия, Мультфильм, Семейный",
+          "country": "США",
+          "year": "2021"
+        },
+        {
+          "movie_id": "/show/fateful_love",
+          "poster_url": "https://www.ts.kg//posters/fateful_love.png",
+          "title": "Роковая любовь",
+          "genre": "Драма, Романтика, Фэнтези",
+          "country": "Китай",
+          "year": "2024"
+        },
+        {
+          "movie_id": "/show/room_no_9",
+          "poster_url": "https://www.ts.kg//posters/room_no_9.png",
+          "title": "Комната №9 | Комната 9 | Камера №9 | Комната номер девять",
+          "genre": "Детектив, Драма, Криминал, Фантастика, Фэнтези",
+          "country": "Республика Корея",
+          "year": "2018"
+        },
+        {
+          "movie_id": "/show/gilmore_girls",
+          "poster_url": "https://www.ts.kg//posters/gilmore_girls.png",
+          "title": "Девочки Гилмор | Дамы семьи Гилмор",
+          "genre": "Драма, Комедия, Семейный",
+          "country": "США",
+          "year": "2000-2007"
+        },
+        {
+          "movie_id": "/show/sever",
+          "poster_url": "https://www.ts.kg//posters/sever.png",
+          "title": "Север | К Северу",
+          "genre": "Детектив, Драма, Криминал, Триллер",
+          "country": "Чехия",
+          "year": "2019"
+        },
+        {
+          "movie_id": "/show/murai_no_koi",
+          "poster_url": "https://www.ts.kg//posters/murai_no_koi.png",
+          "title": "Любовь Мураи",
+          "genre": "Комедия, Романтика",
+          "country": "Япония",
+          "year": "2024"
+        },
+        {
+          "movie_id": "/show/nastenka",
+          "poster_url": "https://www.ts.kg//posters/nastenka.png",
+          "title": "Настенька",
+          "genre": "Детектив",
+          "country": "Российская Федерация",
+          "year": "2023"
+        },
+        {
+          "movie_id": "/show/saikyou_no_shien_shoku_wajutsushi_dearu_ore_wa_sekai_saikyou_clan_o_shitagaeru",
+          "poster_url": "https://www.ts.kg//posters/saikyou_no_shien_shoku_wajutsushi_dearu_ore_wa_sekai_saikyou_clan_o_shitagaeru.png",
+          "title": "Самый известный диктор создаёт самый великий в мире клан",
+          "genre": "Приключения, Фэнтези",
+          "country": "Япония",
+          "year": "2024"
+        },
+        {
+          "movie_id": "/show/4_minutes",
+          "poster_url": "https://www.ts.kg//posters/4_minutes.png",
+          "title": "4 минуты",
+          "genre": "Драма, Триллер, Фантастика",
+          "country": "Таиланд",
+          "year": "2024"
+        },
+        {
+          "movie_id": "/show/platinum_end",
+          "poster_url": "https://www.ts.kg//posters/platinum_end.png",
+          "title": "Платиновый предел",
+          "genre": "Драма, Психология, Сёнен, Фантастика, Фэнтези",
+          "country": "Япония",
+          "year": "2021"
+        },
+        {
+          "movie_id": "/show/unsolved_mysteries",
+          "poster_url": "https://www.ts.kg//posters/unsolved_mysteries.png",
+          "title": "Неразгаданные тайны",
+          "genre": "Документальный, Мистика",
+          "country": "США",
+          "year": "2020"
+        },
+        {
+          "movie_id": "/show/paw_patrol",
+          "poster_url": "https://www.ts.kg//posters/paw_patrol.png",
+          "title": "Щенячий патруль",
+          "genre": "Детям, Мультфильм, Семейный",
+          "country": "США",
+          "year": "2013"
+        },
+        {
+          "movie_id": "/show/stiny_v_mlze",
+          "poster_url": "https://www.ts.kg//posters/stiny_v_mlze.png",
+          "title": "Тени в тумане",
+          "genre": "Детектив, Драма, Криминал",
+          "country": "Чехия",
+          "year": "2022-2024"
+        },
+        {
+          "movie_id": "/show/the_judge_from_hell",
+          "poster_url": "https://www.ts.kg//posters/the_judge_from_hell.png",
+          "title": "Судья из ада",
+          "genre": "Драма, Криминал, Фэнтези",
+          "country": "Республика Корея",
+          "year": "2024"
+        },
+        {
+          "movie_id": "/show/blondy",
+          "poster_url": "https://www.ts.kg//posters/blondy.png",
+          "title": "Блонды",
+          "genre": "Детектив, Криминал",
+          "country": "Российская Федерация",
+          "year": "2024"
+        },
+        {
+          "movie_id": "/show/kizil_goncalar",
+          "poster_url": "https://www.ts.kg//posters/kizil_goncalar.png",
+          "title": "Красные бутоны",
+          "genre": "Драма",
+          "country": "Турция",
+          "year": "2023"
+        },
+        {
+          "movie_id": "/show/murdoch_mysteries",
+          "poster_url": "https://www.ts.kg//posters/murdoch_mysteries.png",
+          "title": "Расследования Мердока",
+          "genre": "Детектив",
+          "country": "Канада",
+          "year": "2008"
+        },
+        {
+          "movie_id": "/show/hero_is_back",
+          "poster_url": "https://www.ts.kg//posters/hero_is_back.png",
+          "title": "Возвращение героя",
+          "genre": "Боевик, Драма, Исторический, Приключения, Романтика, Фэнтези",
+          "country": "Китай",
+          "year": "2024"
+        },
+        {
+          "movie_id": "/show/amura",
+          "poster_url": "https://www.ts.kg//posters/amura.png",
+          "title": "Амура",
+          "genre": "Боевик, Драма, Криминал",
+          "country": "Российская Федерация",
+          "year": "2024"
+        },
+        {
+          "movie_id": "/show/joan",
+          "poster_url": "https://www.ts.kg//posters/joan.png",
+          "title": "Джоан",
+          "genre": "Драма, Криминал",
+          "country": "Великобритания",
+          "year": "2024"
+        },
+        {
+          "movie_id": "/show/vkus_mesti",
+          "poster_url": "https://www.ts.kg//posters/vkus_mesti.png",
+          "title": "Вкус мести",
+          "genre": "Детектив, Драма, Мелодрама",
+          "country": "Российская Федерация",
+          "year": "2021"
+        },
+        {
+          "movie_id": "/show/dog_city",
+          "poster_url": "https://www.ts.kg//posters/dog_city.png",
+          "title": "Дог Сити",
+          "genre": "Детектив, Детям, Комедия, Мультфильм, Семейный",
+          "country": "США",
+          "year": "1992-1994"
+        },
+        {
+          "movie_id": "/show/road_home",
+          "poster_url": "https://www.ts.kg//posters/road_home.png",
+          "title": "Дорога домой",
+          "genre": "Мелодрама, Романтика",
+          "country": "Китай",
+          "year": "2023"
+        },
+        {
+          "movie_id": "/show/x_men",
+          "poster_url": "https://www.ts.kg//posters/x_men.png",
+          "title": "Люди Икс. Коллекция",
+          "genre": "Marvel, Боевик, Возраст: 12+, Возраст: 18+, Комедия, Полнометражный, Приключения, Триллер, Фантастика",
+          "country": "США",
+          "year": "2000"
+        },
+        {
+          "movie_id": "/show/simpsons",
+          "poster_url": "https://www.ts.kg//posters/simpsons.png",
+          "title": "Симпсоны",
+          "genre": "Комедия, Пародия",
+          "country": "США",
+          "year": "1989"
+        },
+        {
+          "movie_id": "/show/uzumaki",
+          "poster_url": "https://www.ts.kg//posters/uzumaki.png",
+          "title": "Спираль",
+          "genre": "Мистика, Триллер",
+          "country": "США",
+          "year": "2024"
+        },
+        {
+          "movie_id": "/show/krapopolis",
+          "poster_url": "https://www.ts.kg//posters/krapopolis.png",
+          "title": "Крапополис",
+          "genre": "Комедия, Мультфильм, Фэнтези",
+          "country": "США",
+          "year": "2023"
+        },
+        {
+          "movie_id": "/show/1923_lost",
+          "poster_url": "https://www.ts.kg//posters/1923_lost.png",
+          "title": "1923",
+          "genre": "Вестерн, Драма",
+          "country": "США",
+          "year": "2022"
+        },
+        {
+          "movie_id": "/show/giants_of_la_mancha",
+          "poster_url": "https://www.ts.kg//posters/giants_of_la_mancha.png",
+          "title": "Гиганты Ла-Манша",
+          "genre": "Детям, Мультфильм, Полнометражный, Приключения, Семейный",
+          "country": "Аргентина",
+          "year": "2024"
+        },
+        {
+          "movie_id": "/show/yumi_s_cells_the_movie",
+          "poster_url": "https://www.ts.kg//posters/yumi_s_cells_the_movie.png",
+          "title": "Мир в моей голове",
+          "genre": "Детям, Комедия, Мелодрама, Мультфильм, Полнометражный, Фантастика",
+          "country": "Республика Корея",
+          "year": "2024"
+        },
+        {
+          "movie_id": "/show/discovering_langkawi_with_irshad_mobarak",
+          "poster_url": "https://www.ts.kg//posters/discovering_langkawi_with_irshad_mobarak.png",
+          "title": "Открываем Лангкави",
+          "genre": "Документальный, Познавательный, Фауна, Флора",
+          "country": "Малайзия",
+          "year": "2017"
+        },
+        {
+          "movie_id": "/show/naachtun_the_forgotten_mayan_city",
+          "poster_url": "https://www.ts.kg//posters/naachtun_the_forgotten_mayan_city.png",
+          "title": "Наачтун: затерянный город майя",
+          "genre": "Археология, Документальный, Исторический",
+          "country": "Франция",
+          "year": "2016"
+        },
+        {
+          "movie_id": "/show/borec",
+          "poster_url": "https://www.ts.kg//posters/borec.png",
+          "title": "Борец",
+          "genre": "Драма, Спорт",
+          "country": "Российская Федерация",
+          "year": "2017"
+        },
+        {
+          "movie_id": "/show/oranzhevaya_korova",
+          "poster_url": "https://www.ts.kg//posters/oranzhevaya_korova.png",
+          "title": "Оранжевая корова",
+          "genre": "Детям, Мультфильм, Обучающий",
+          "country": "Российская Федерация",
+          "year": "2018"
+        },
+        {
+          "movie_id": "/show/maou_sama_retry",
+          "poster_url": "https://www.ts.kg//posters/maou_sama_retry.png",
+          "title": "Владыка Демонов, по новой! | Король демонов, попытайтесь снова!",
+          "genre": "Боевик, Приключения, Фэнтези",
+          "country": "Япония",
+          "year": "2019"
+        },
+        {
+          "movie_id": "/show/my_love_enlighten_me",
+          "poster_url": "https://www.ts.kg//posters/my_love_enlighten_me.png",
+          "title": "Любовь моя, просвети меня",
+          "genre": "Дорама, Драма, Комедия, Мелодрама",
+          "country": "Китай",
+          "year": "2020"
+        },
+        {
+          "movie_id": "/show/the_princess_royal",
+          "poster_url": "https://www.ts.kg//posters/the_princess_royal.png",
+          "title": "Великая принцесса",
+          "genre": "Мелодрама, Фэнтези",
+          "country": "Китай",
+          "year": "2024"
+        },
+        {
+          "movie_id": "/show/the_walking_dead_daryl_dixon",
+          "poster_url": "https://www.ts.kg//posters/the_walking_dead_daryl_dixon.png",
+          "title": "Ходячие мертвецы: Дэрил Диксон",
+          "genre": "Ужасы",
+          "country": "США",
+          "year": "2023"
+        },
+        {
+          "movie_id": "/show/perevod_s_tureckogo",
+          "poster_url": "https://www.ts.kg//posters/perevod_s_tureckogo.png",
+          "title": "Перевод с турецкого",
+          "genre": "Мелодрама",
+          "country": "Российская Федерация",
+          "year": "2024"
+        },
+        {
+          "movie_id": "/show/surrogatnaya_mat_2021",
+          "poster_url": "https://www.ts.kg//posters/surrogatnaya_mat_2021.png",
+          "title": "Суррогатная мать (2021)",
+          "genre": "Драма, Мелодрама",
+          "country": "Российская Федерация",
+          "year": "2021"
+        },
+        {
+          "movie_id": "/show/hitoribocchi_no_isekai_kouryaku_loner_life_in_another_world",
+          "poster_url": "https://www.ts.kg//posters/hitoribocchi_no_isekai_kouryaku_loner_life_in_another_world.png",
+          "title": "Нападение одиночки на иной мир",
+          "genre": "Боевик, Исекай, Приключения, Фэнтези",
+          "country": "Япония",
+          "year": "2024"
+        },
+        {
+          "movie_id": "/show/50_shades_of_sharks",
+          "poster_url": "https://www.ts.kg//posters/50_shades_of_sharks.png",
+          "title": "Тайны акул",
+          "genre": "Документальный, Фауна, Флора",
+          "country": "Франция",
+          "year": "2020"
+        },
+        {
+          "movie_id": "/show/sky_river_of_the_himalayas",
+          "poster_url": "https://www.ts.kg//posters/sky_river_of_the_himalayas.png",
+          "title": "Небесная река Гималаев",
+          "genre": "Документальный, Путешествие",
+          "country": "Австрия",
+          "year": "2017"
+        },
+        {
+          "movie_id": "/show/porni",
+          "poster_url": "https://www.ts.kg//posters/porni.png",
+          "title": "Пьерни",
+          "genre": "Драма, Комедия",
+          "country": "Норвегия",
+          "year": "2021-2023"
+        },
+        {
+          "movie_id": "/show/open_mic",
+          "poster_url": "https://www.ts.kg//posters/open_mic.png",
+          "title": "Open Mic",
+          "genre": "Развлекательное шоу, Юмористическое шоу",
+          "country": "Российская Федерация",
+          "year": "2023"
+        },
+        {
+          "movie_id": "/show/za_den_do",
+          "poster_url": "https://www.ts.kg//posters/za_den_do.png",
+          "title": "За день до...",
+          "genre": "Детектив, Мелодрама",
+          "country": "Российская Федерация",
+          "year": "2024"
+        },
+        {
+          "movie_id": "/show/mama_v_16",
+          "poster_url": "https://www.ts.kg//posters/mama_v_16.png",
+          "title": "Мама в 16",
+          "genre": "Развлекательное шоу, Реалити-шоу",
+          "country": "Российская Федерация",
+          "year": "2024"
+        },
+        {
+          "movie_id": "/show/doctor_odyssey",
+          "poster_url": "https://www.ts.kg//posters/doctor_odyssey.png",
+          "title": "Доктор Одиссей",
+          "genre": "Драма, Медицина",
+          "country": "США",
+          "year": "2024"
+        },
+        {
+          "movie_id": "/show/gyeongseong_creature",
+          "poster_url": "https://www.ts.kg//posters/gyeongseong_creature.png",
+          "title": "Существо из Кёнсона | Кёнсонское существо",
+          "genre": "Драма, Исторический, Триллер",
+          "country": "Республика Корея",
+          "year": "2023"
+        },
+        {
+          "movie_id": "/show/kurulus_osman",
+          "poster_url": "https://www.ts.kg//posters/kurulus_osman.png",
+          "title": "Основание: Осман",
+          "genre": "Драма, Исторический",
+          "country": "Турция",
+          "year": "2019"
+        },
+        {
+          "movie_id": "/show/where_s_wanda",
+          "poster_url": "https://www.ts.kg//posters/where_s_wanda.png",
+          "title": "Куда пропала Ванда",
+          "genre": "Драма, Комедия",
+          "country": "Германия",
+          "year": "2024"
+        },
+        {
+          "movie_id": "/show/the_legend_of_vox_machina",
+          "poster_url": "https://www.ts.kg//posters/the_legend_of_vox_machina.png",
+          "title": "Легенда Vox Machina | Легенда Вокс Машины",
+          "genre": "Боевик, Комедия, Мультфильм, Приключения, Фэнтези",
+          "country": "США",
+          "year": "2022"
+        },
+        {
+          "movie_id": "/show/vpervye",
+          "poster_url": "https://www.ts.kg//posters/vpervye.png",
+          "title": "Впервые",
+          "genre": "Комедия",
+          "country": "Российская Федерация",
+          "year": "2024"
+        },
+        {
+          "movie_id": "/show/rekishi_ni_nokoru_akujo_ni_naru_zo",
+          "poster_url": "https://www.ts.kg//posters/rekishi_ni_nokoru_akujo_ni_naru_zo.png",
+          "title": "Я стану злодейкой, которая войдёт в историю: Чем большей злодейкой я стану, тем больше понравлюсь принцу!",
+          "genre": "Исекай, Комедия, Романтика, Сёдзё, Фэнтези",
+          "country": "Япония",
+          "year": "2024"
+        },
+        {
+          "movie_id": "/show/el_ruso",
+          "poster_url": "https://www.ts.kg//posters/el_ruso.png",
+          "title": "Эль Русо",
+          "genre": "Детектив, Драма, Криминал",
+          "country": "Российская Федерация",
+          "year": "2024"
+        },
+        {
+          "movie_id": "/show/fateful_love",
+          "poster_url": "https://www.ts.kg//posters/fateful_love.png",
+          "title": "Роковая любовь",
+          "genre": "Драма, Романтика, Фэнтези",
+          "country": "Китай",
+          "year": "2024"
+        },
+        {
+          "movie_id": "/show/gilmore_girls",
+          "poster_url": "https://www.ts.kg//posters/gilmore_girls.png",
+          "title": "Девочки Гилмор | Дамы семьи Гилмор",
+          "genre": "Драма, Комедия, Семейный",
+          "country": "США",
+          "year": "2000-2007"
+        },
+        {
+          "movie_id": "/show/murai_no_koi",
+          "poster_url": "https://www.ts.kg//posters/murai_no_koi.png",
+          "title": "Любовь Мураи",
+          "genre": "Комедия, Романтика",
+          "country": "Япония",
+          "year": "2024"
+        },
+        {
+          "movie_id": "/show/saikyou_no_shien_shoku_wajutsushi_dearu_ore_wa_sekai_saikyou_clan_o_shitagaeru",
+          "poster_url": "https://www.ts.kg//posters/saikyou_no_shien_shoku_wajutsushi_dearu_ore_wa_sekai_saikyou_clan_o_shitagaeru.png",
+          "title": "Самый известный диктор создаёт самый великий в мире клан",
+          "genre": "Приключения, Фэнтези",
+          "country": "Япония",
+          "year": "2024"
+        },
+        {
+          "movie_id": "/show/platinum_end",
+          "poster_url": "https://www.ts.kg//posters/platinum_end.png",
+          "title": "Платиновый предел",
+          "genre": "Драма, Психология, Сёнен, Фантастика, Фэнтези",
+          "country": "Япония",
+          "year": "2021"
+        },
+        {
+          "movie_id": "/show/paw_patrol",
+          "poster_url": "https://www.ts.kg//posters/paw_patrol.png",
+          "title": "Щенячий патруль",
+          "genre": "Детям, Мультфильм, Семейный",
+          "country": "США",
+          "year": "2013"
+        },
+        {
+          "movie_id": "/show/the_judge_from_hell",
+          "poster_url": "https://www.ts.kg//posters/the_judge_from_hell.png",
+          "title": "Судья из ада",
+          "genre": "Драма, Криминал, Фэнтези",
+          "country": "Республика Корея",
+          "year": "2024"
+        },
+        {
+          "movie_id": "/show/kizil_goncalar",
+          "poster_url": "https://www.ts.kg//posters/kizil_goncalar.png",
+          "title": "Красные бутоны",
+          "genre": "Драма",
+          "country": "Турция",
+          "year": "2023"
+        },
+        {
+          "movie_id": "/show/hero_is_back",
+          "poster_url": "https://www.ts.kg//posters/hero_is_back.png",
+          "title": "Возвращение героя",
+          "genre": "Боевик, Драма, Исторический, Приключения, Романтика, Фэнтези",
+          "country": "Китай",
+          "year": "2024"
+        },
+        {
+          "movie_id": "/show/joan",
+          "poster_url": "https://www.ts.kg//posters/joan.png",
+          "title": "Джоан",
+          "genre": "Драма, Криминал",
+          "country": "Великобритания",
+          "year": "2024"
+        },
+        {
+          "movie_id": "/show/dog_city",
+          "poster_url": "https://www.ts.kg//posters/dog_city.png",
+          "title": "Дог Сити",
+          "genre": "Детектив, Детям, Комедия, Мультфильм, Семейный",
+          "country": "США",
+          "year": "1992-1994"
+        },
+        {
+          "movie_id": "/show/x_men",
+          "poster_url": "https://www.ts.kg//posters/x_men.png",
+          "title": "Люди Икс. Коллекция",
+          "genre": "Marvel, Боевик, Возраст: 12+, Возраст: 18+, Комедия, Полнометражный, Приключения, Триллер, Фантастика",
+          "country": "США",
+          "year": "2000"
+        },
+        {
+          "movie_id": "/show/uzumaki",
+          "poster_url": "https://www.ts.kg//posters/uzumaki.png",
+          "title": "Спираль",
+          "genre": "Мистика, Триллер",
+          "country": "США",
+          "year": "2024"
+        },
+        {
+          "movie_id": "/show/1923_lost",
+          "poster_url": "https://www.ts.kg//posters/1923_lost.png",
+          "title": "1923",
+          "genre": "Вестерн, Драма",
+          "country": "США",
+          "year": "2022"
+        },
+        {
+          "movie_id": "/show/yumi_s_cells_the_movie",
+          "poster_url": "https://www.ts.kg//posters/yumi_s_cells_the_movie.png",
+          "title": "Мир в моей голове",
+          "genre": "Детям, Комедия, Мелодрама, Мультфильм, Полнометражный, Фантастика",
+          "country": "Республика Корея",
+          "year": "2024"
+        },
+        {
+          "movie_id": "/show/naachtun_the_forgotten_mayan_city",
+          "poster_url": "https://www.ts.kg//posters/naachtun_the_forgotten_mayan_city.png",
+          "title": "Наачтун: затерянный город майя",
+          "genre": "Археология, Документальный, Исторический",
+          "country": "Франция",
+          "year": "2016"
+        },
+        {
+          "movie_id": "/show/oranzhevaya_korova",
+          "poster_url": "https://www.ts.kg//posters/oranzhevaya_korova.png",
+          "title": "Оранжевая корова",
+          "genre": "Детям, Мультфильм, Обучающий",
+          "country": "Российская Федерация",
+          "year": "2018"
+        },
+        {
+          "movie_id": "/show/my_love_enlighten_me",
+          "poster_url": "https://www.ts.kg//posters/my_love_enlighten_me.png",
+          "title": "Любовь моя, просвети меня",
+          "genre": "Дорама, Драма, Комедия, Мелодрама",
+          "country": "Китай",
+          "year": "2020"
+        },
+        {
+          "movie_id": "/show/the_walking_dead_daryl_dixon",
+          "poster_url": "https://www.ts.kg//posters/the_walking_dead_daryl_dixon.png",
+          "title": "Ходячие мертвецы: Дэрил Диксон",
+          "genre": "Ужасы",
+          "country": "США",
+          "year": "2023"
+        },
+        {
+          "movie_id": "/show/surrogatnaya_mat_2021",
+          "poster_url": "https://www.ts.kg//posters/surrogatnaya_mat_2021.png",
+          "title": "Суррогатная мать (2021)",
+          "genre": "Драма, Мелодрама",
+          "country": "Российская Федерация",
+          "year": "2021"
+        },
+        {
+          "movie_id": "/show/50_shades_of_sharks",
+          "poster_url": "https://www.ts.kg//posters/50_shades_of_sharks.png",
+          "title": "Тайны акул",
+          "genre": "Документальный, Фауна, Флора",
+          "country": "Франция",
+          "year": "2020"
+        },
+        {
+          "movie_id": "/show/porni",
+          "poster_url": "https://www.ts.kg//posters/porni.png",
+          "title": "Пьерни",
+          "genre": "Драма, Комедия",
+          "country": "Норвегия",
+          "year": "2021-2023"
+        },
+        {
+          "movie_id": "/show/za_den_do",
+          "poster_url": "https://www.ts.kg//posters/za_den_do.png",
+          "title": "За день до...",
+          "genre": "Детектив, Мелодрама",
+          "country": "Российская Федерация",
+          "year": "2024"
+        },
+        {
+          "movie_id": "/show/doctor_odyssey",
+          "poster_url": "https://www.ts.kg//posters/doctor_odyssey.png",
+          "title": "Доктор Одиссей",
+          "genre": "Драма, Медицина",
+          "country": "США",
+          "year": "2024"
+        },
+        {
+          "movie_id": "/show/lisa",
+          "poster_url": "https://www.ts.kg//posters/lisa.png",
+          "title": "Лиса",
+          "genre": "Детектив",
+          "country": "Российская Федерация",
+          "year": "2024"
+        },
+        {
+          "movie_id": "/show/yasak_elma_dub",
+          "poster_url": "https://www.ts.kg//posters/yasak_elma_dub.png",
+          "title": "Запретный плод",
+          "genre": "Драма",
+          "country": "Турция",
+          "year": "2018"
+        },
+        {
+          "movie_id": "/show/x_men",
+          "poster_url": "https://www.ts.kg//posters/x_men.png",
+          "title": "Люди Икс. Коллекция",
+          "genre": "Marvel, Боевик, Возраст: 12+, Возраст: 18+, Комедия, Полнометражный, Приключения, Триллер, Фантастика",
+          "country": "США",
+          "year": "2000"
+        },
+        {
+          "movie_id": "/show/the_judge_from_hell",
+          "poster_url": "https://www.ts.kg//posters/the_judge_from_hell.png",
+          "title": "Судья из ада",
+          "genre": "Драма, Криминал, Фэнтези",
+          "country": "Республика Корея",
+          "year": "2024"
+        },
+        {
+          "movie_id": "/show/shingeki_no_kyojin",
+          "poster_url": "https://www.ts.kg//posters/shingeki_no_kyojin.png",
+          "title": "Вторжение Титанов | Атака титанов",
+          "genre": "Драма, Приключения, Фэнтези",
+          "country": "Япония",
+          "year": "2013"
+        },
+        {
+          "movie_id": "/show/the_grand_tour",
+          "poster_url": "https://www.ts.kg//posters/the_grand_tour.png",
+          "title": "Гранд тур",
+          "genre": "Авто, Развлекательное шоу, Юмористическое шоу",
+          "country": "США",
+          "year": "2016"
+        },
+        {
+          "movie_id": "/show/trigger",
+          "poster_url": "https://www.ts.kg//posters/trigger.png",
+          "title": "Триггер",
+          "genre": "Драма",
+          "country": "Российская Федерация",
+          "year": "2020"
+        },
+        {
+          "movie_id": "/show/yabani",
+          "poster_url": "https://www.ts.kg//posters/yabani.png",
+          "title": "Дикий",
+          "genre": "Драма, Мелодрама",
+          "country": "Турция",
+          "year": "2023"
+        },
+        {
+          "movie_id": "/show/harry_potter",
+          "poster_url": "https://www.ts.kg//posters/harry_potter.png",
+          "title": "Гарри Поттер. Коллекция",
+          "genre": "Возраст: 12+, Подростки, Полнометражный, Приключения, Семейный, Фэнтези, Экранизация",
+          "country": "США",
+          "year": "2001-2021"
+        },
+        {
+          "movie_id": "/show/gyeongseong_creature",
+          "poster_url": "https://www.ts.kg//posters/gyeongseong_creature.png",
+          "title": "Существо из Кёнсона | Кёнсонское существо",
+          "genre": "Драма, Исторический, Триллер",
+          "country": "Республика Корея",
+          "year": "2023"
+        },
+        {
+          "movie_id": "/show/kimetsu_no_yaiba",
+          "poster_url": "https://www.ts.kg//posters/kimetsu_no_yaiba.png",
+          "title": "Клинок, рассекающий демонов | Истребитель демонов",
+          "genre": "Боевик, Исторический, Приключения, Сёнен, Фэнтези",
+          "country": "Япония",
+          "year": "2019"
+        },
+        {
+          "movie_id": "/show/hells_kitchen",
+          "poster_url": "https://www.ts.kg//posters/hells_kitchen.png",
+          "title": "Адская кухня",
+          "genre": "Кулинария, Реалити-шоу",
+          "country": "США",
+          "year": "2005"
+        },
+        {
+          "movie_id": "/show/shef",
+          "poster_url": "https://www.ts.kg//posters/shef.png",
+          "title": "Шеф",
+          "genre": "Драма, Криминал",
+          "country": "Российская Федерация",
+          "year": "2012"
+        },
+        {
+          "movie_id": "/show/cukur",
+          "poster_url": "https://www.ts.kg//posters/cukur.png",
+          "title": "Чукур (Яма)",
+          "genre": "Драма, Мелодрама",
+          "country": "Турция",
+          "year": "2017-2021"
+        },
+        {
+          "movie_id": "/show/marvel_saga_beskonechnosti",
+          "poster_url": "https://www.ts.kg//posters/marvel_saga_beskonechnosti.png",
+          "title": "Marvel. Сага Бесконечности",
+          "genre": "Marvel, Боевик, Возраст: 12+, Полнометражный, Приключения, Суперспособности, Фантастика",
+          "country": "США",
+          "year": "2008"
+        },
+        {
+          "movie_id": "/show/5_32",
+          "poster_url": "https://www.ts.kg//posters/5_32.png",
+          "title": "5:32",
+          "genre": "Детектив, Триллер",
+          "country": "Казахстан",
+          "year": "2021"
+        },
+        {
+          "movie_id": "/show/jujutsu_kaisen",
+          "poster_url": "https://www.ts.kg//posters/jujutsu_kaisen.png",
+          "title": "Магическая битва",
+          "genre": "Приключения, Фэнтези",
+          "country": "Япония",
+          "year": "2020"
+        },
+        {
+          "movie_id": "/show/unsolved_mysteries",
+          "poster_url": "https://www.ts.kg//posters/unsolved_mysteries.png",
+          "title": "Неразгаданные тайны",
+          "genre": "Документальный, Мистика",
+          "country": "США",
+          "year": "2020"
+        },
+        {
+          "movie_id": "/show/trassa_2024",
+          "poster_url": "https://www.ts.kg//posters/trassa_2024.png",
+          "title": "Трасса (2024)",
+          "genre": "Драма, Триллер",
+          "country": "Российская Федерация",
+          "year": "2024"
+        },
+        {
+          "movie_id": "/show/bir_gece_masali",
+          "poster_url": "https://www.ts.kg//posters/bir_gece_masali.png",
+          "title": "Ночная сказка",
+          "genre": "Драма",
+          "country": "Турция",
+          "year": "2024"
+        },
+        {
+          "movie_id": "/show/the_hobbit_the_lord_of_the_rings",
+          "poster_url": "https://www.ts.kg//posters/the_hobbit_the_lord_of_the_rings.png",
+          "title": "Хоббит + Властелин колец. Коллекция",
+          "genre": "Возраст: 12+, Полнометражный, Приключения, Семейный, Фэнтези, Экранизация",
+          "country": "США",
+          "year": "2001-2014"
+        },
+        {
+          "movie_id": "/show/marry_my_husband",
+          "poster_url": "https://www.ts.kg//posters/marry_my_husband.png",
+          "title": "Выходи замуж за моего мужа",
+          "genre": "Драма, Романтика, Фантастика",
+          "country": "Республика Корея",
+          "year": "2024"
+        },
+        {
+          "movie_id": "/show/tensei_shitara_slime_datta_ken",
+          "poster_url": "https://www.ts.kg//posters/tensei_shitara_slime_datta_ken.png",
+          "title": "О моём перерождении в слизь",
+          "genre": "Драма, Комедия, Приключения, Фэнтези",
+          "country": "Япония",
+          "year": "2018"
+        },
+        {
+          "movie_id": "/show/podium",
+          "poster_url": "https://www.ts.kg//posters/podium.png",
+          "title": "Проект Подиум",
+          "genre": "Мода, Реалити-шоу",
+          "country": "США",
+          "year": "2004"
+        },
+        {
+          "movie_id": "/show/protivostoyanie_2024",
+          "poster_url": "https://www.ts.kg//posters/protivostoyanie_2024.png",
+          "title": "Противостояние (2024)",
+          "genre": "Детектив, Экранизация",
+          "country": "Российская Федерация",
+          "year": "2024"
+        },
+        {
+          "movie_id": "/show/yargi",
+          "poster_url": "https://www.ts.kg//posters/yargi.png",
+          "title": "Осуждение | Приговор | Правосудие",
+          "genre": "Драма",
+          "country": "Турция",
+          "year": "2021"
+        },
+        {
+          "movie_id": "/show/twilight_saga_anthology",
+          "poster_url": "https://www.ts.kg//posters/twilight_saga_anthology.png",
+          "title": "Сумерки. Сага. Коллекция",
+          "genre": "Возраст: 12+, Драма, Мелодрама, Полнометражный, Фэнтези",
+          "country": "США",
+          "year": "2008-2012"
+        },
+        {
+          "movie_id": "/show/no_gain_no_love",
+          "poster_url": "https://www.ts.kg//posters/no_gain_no_love.png",
+          "title": "Не хочу ничего терять",
+          "genre": "Дорама, Комедия, Мелодрама",
+          "country": "Республика Корея",
+          "year": "2024"
+        },
+        {
+          "movie_id": "/show/tsue_to_tsurugi_no_wistoria",
+          "poster_url": "https://www.ts.kg//posters/tsue_to_tsurugi_no_wistoria.png",
+          "title": "Меч и жезл Вистории",
+          "genre": "Боевик, Приключения, Романтика, Фэнтези",
+          "country": "Япония",
+          "year": "2024"
+        },
+        {
+          "movie_id": "/show/pawn_stars",
+          "poster_url": "https://www.ts.kg//posters/pawn_stars.png",
+          "title": "Звёзды ломбарда",
+          "genre": "Бизнес, Документальный, Развлекательное шоу",
+          "country": "США",
+          "year": "2009"
+        }
+      ]
+    }
+  ]
+}

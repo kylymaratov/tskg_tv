@@ -1,0 +1,8 @@
+<resources>
+    <style name="Theme.TvApp" parent="@style/Theme.Leanback">
+        <item name="android:windowBackground">#0F0F0F</item>
+    </style>
+    <style name="ShapeAppearance.App.CornerSize" parent="">
+        <item name="cornerSize">100dp</item>
+    </style>
+</resources>
