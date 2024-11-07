@@ -1,0 +1,53 @@
+{
+    "name": "home-theater",
+    "version": "1.0.0",
+    "main": "dist/app.js",
+    "scripts": {
+        "start": "cross-env NODE_ENV=production node dist/app.js",
+        "dev": "cross-env NODE_ENV=development nodemon --watch src src/app.ts",
+        "build": "npx tsc",
+        "prettier:format": "npx prettier --write .",
+        "prettier:check": "npx prettier --check ."
+    },
+    "keywords": [
+        "home-theater",
+        "movie",
+        "cinema"
+    ],
+    "author": "klm",
+    "license": "UNLICENSED",
+    "description": "",
+    "dependencies": {
+        "axios": "^1.7.7",
+        "body-parser": "^1.20.3",
+        "cors": "^2.8.5",
+        "cross-env": "^7.0.3",
+        "dotenv": "^16.4.5",
+        "express": "^4.21.0",
+        "express-validator": "^7.2.0",
+        "module-alias": "^2.2.3",
+        "mongoose": "^8.7.0",
+        "morgan": "^1.10.0",
+        "random-useragent": "^0.5.0"
+    },
+    "devDependencies": {
+        "@types/axios": "^0.14.0",
+        "@types/body-parser": "^1.19.5",
+        "@types/cors": "^2.8.17",
+        "@types/express": "^5.0.0",
+        "@types/module-alias": "^2.0.4",
+        "@types/mongoose": "^5.11.97",
+        "@types/morgan": "^1.9.9",
+        "@types/random-useragent": "^0.3.3",
+        "@typescript-eslint/eslint-plugin": "^8.8.0",
+        "@typescript-eslint/parser": "^8.8.0",
+        "cheerio": "^1.0.0",
+        "eslint": "^9.11.1",
+        "eslint-config-prettier": "^9.1.0",
+        "eslint-plugin-prettier": "^5.2.1",
+        "nodemon": "^3.1.7",
+        "prettier": "^3.3.3",
+        "ts-node": "^10.9.2",
+        "typescript-eslint": "^8.8.0"
+    }
+}
