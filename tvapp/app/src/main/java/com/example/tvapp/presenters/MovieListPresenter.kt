@@ -9,15 +9,14 @@ import android.widget.TextView
 import androidx.leanback.widget.Presenter
 import com.bumptech.glide.Glide
 import com.example.tvapp.R
-import com.example.tvapp.models.MoviesResponse
-
+import com.example.tvapp.models.Movie
 
 class MoviePresenter : Presenter() {
     override fun onCreateViewHolder(parent: ViewGroup?): ViewHolder {
         val view = LayoutInflater.from(parent?.context).inflate(R.layout.item_movie, parent, false)
 
         val params = view.layoutParams
-        params.width = getWidthInPercent(parent!!.context, 13)
+        params.width = getWidthInPercent(parent!!.context, 14)
 
         view.layoutParams = params
 
@@ -25,27 +24,22 @@ class MoviePresenter : Presenter() {
     }
 
     override fun onBindViewHolder(viewHolder: ViewHolder?, item: Any?) {
-        val content = item as? MoviesResponse.Result.Detail ?: return
+        val content = item as Movie
 
-        val movie_title: TextView = viewHolder?.view?.findViewById(R.id.movie_title) ?: return
-        val movie_cover: ImageView = viewHolder.view.findViewById(R.id.poster_image)
+        val movieTitle: TextView = viewHolder?.view?.findViewById(R.id.movie_title) ?: return
+        val movieCover: ImageView = viewHolder.view.findViewById(R.id.poster_image)
 
-        movie_title.text = content.title
-        movie_title.visibility = if (content.search_title != null) View.VISIBLE else View.GONE
+        movieCover.visibility = View.VISIBLE
 
         val params = viewHolder.view.layoutParams
 
-        params.height = if (content.search_title != null) {
-            getHeightInPercent(viewHolder.view.context, 45)
-        } else {
-            getHeightInPercent(viewHolder.view.context, 32)
-        }
+        params.height = getHeightInPercent(viewHolder.view.context, 34)
 
         viewHolder.view.layoutParams = params
 
         Glide.with(viewHolder.view.context)
-            .load(content.poster_url)
-            .into(movie_cover)
+            .load(content.posterUrl)
+            .into(movieCover)
     }
 
     override fun onUnbindViewHolder(viewHolder: ViewHolder?) {

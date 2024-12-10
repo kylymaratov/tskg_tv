@@ -8,9 +8,9 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.leanback.widget.Presenter
 import com.example.tvapp.R
-import com.example.tvapp.models.SeriesResponse
+import com.example.tvapp.models.MovieEpisode
 
-class SeriaPresenter: Presenter() {
+class SeriaListPresenter: Presenter() {
 
     override fun onCreateViewHolder(parent: ViewGroup?): ViewHolder {
         val view = LayoutInflater.from(parent?.context).inflate(R.layout.item_episode, parent, false)
@@ -19,6 +19,8 @@ class SeriaPresenter: Presenter() {
 
         params.width = getWidthInPercent(parent!!.context, 20)
         params.height = getHeightInPercent(parent.context, 12)
+
+
 
         return ViewHolder(view)
     }
@@ -35,13 +37,13 @@ class SeriaPresenter: Presenter() {
     }
 
     override fun onBindViewHolder(viewHolder: ViewHolder?, item: Any?) {
-        val content = item as? SeriesResponse.Episodes
+        val content = item as? MovieEpisode
 
         val txtEpisode_title =  viewHolder?.view?.findViewById<TextView>(R.id.episode_title)
         val txtEpisode_quality   = viewHolder?.view?.findViewById<TextView>(R.id.episode_quality)
         val txtEpisode_duration = viewHolder?.view?.findViewById<TextView>(R.id.episode_duration)
 
-        txtEpisode_title?.text =  "Серия: ${content?.episode_title}"
+        txtEpisode_title?.text =  "Серия: ${content?.episodeTitle}"
         txtEpisode_quality?.text   = "Качество: ${content?.quality}"
         txtEpisode_duration?.text = "Длительность: ${content?.duration}"
 
@@ -51,6 +53,8 @@ class SeriaPresenter: Presenter() {
             viewHolder.view?.setBackgroundColor(Color.parseColor("#0F0F0F"))
         }
         }
+
+
     }
 
 
