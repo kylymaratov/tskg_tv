@@ -4,7 +4,7 @@ import { connect } from 'mongoose';
 import os from 'os';
 
 const beforeRun = async () => {
-    await connect(serverEnv.env.MONGO_URL || '', {});
+    
 };
 
 const afterRun = (PORT: number) => {
