@@ -8,6 +8,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
+import com.bumptech.glide.load.engine.DiskCacheStrategy
 import com.example.tvapp.DetailsActivity
 import com.example.tvapp.R
 import com.example.tvapp.models.Movie
@@ -49,6 +50,8 @@ class MovieGridAdapter(private val movies: MutableList<Movie>, private val itemH
             movieTitle.text = movie.title
             Glide.with(itemView.context)
                 .load(movie.posterUrl)
+                .diskCacheStrategy(DiskCacheStrategy.NONE)
+                .skipMemoryCache(false)
                 .into(moviePoster)
 
             itemView.setOnFocusChangeListener { _, hasFocus ->

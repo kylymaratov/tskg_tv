@@ -14,6 +14,7 @@ import android.widget.TextView
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.fragment.app.Fragment
 import com.bumptech.glide.Glide
+import com.bumptech.glide.load.engine.DiskCacheStrategy
 import com.example.tvapp.R
 import com.example.tvapp.models.Movie
 
@@ -102,7 +103,8 @@ class HeaderFragment : Fragment() {
         fadeInView(gradientBanner)
 
         fadeOutImage(movieCover)
-        Glide.with(this).load(movie.posterUrl).into(movieCover)
+        Glide.with(this).load(movie.posterUrl).diskCacheStrategy(DiskCacheStrategy.NONE)
+            .skipMemoryCache(false).into(movieCover)
         fadeInImage(movieCover)
     }
 }

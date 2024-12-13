@@ -8,6 +8,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.leanback.widget.Presenter
 import com.bumptech.glide.Glide
+import com.bumptech.glide.load.engine.DiskCacheStrategy
 import com.example.tvapp.R
 import com.example.tvapp.models.Movie
 import com.example.tvapp.utils.Common
@@ -34,6 +35,8 @@ class MovieListPresenter : Presenter() {
 
         Glide.with(viewHolder.view.context)
             .load(content.posterUrl)
+            .diskCacheStrategy(DiskCacheStrategy.NONE)
+            .skipMemoryCache(false)
             .into(movieCover)
     }
 
