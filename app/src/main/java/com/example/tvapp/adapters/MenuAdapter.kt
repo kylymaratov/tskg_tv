@@ -8,43 +8,41 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.tvapp.R
 import com.example.tvapp.models.MenuItem
 
-class MenuAdapter(private val items: List<MenuItem>) :
-    RecyclerView.Adapter<MenuAdapter.MenuViewHolder>() {
+class MenuAdapter(private val categories: List<MenuItem>, private val onClick: (MenuItem) -> Unit) : RecyclerView.Adapter<MenuAdapter.MenuViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MenuViewHolder {
-        val view = LayoutInflater.from(parent.context)
-            .inflate(R.layout.item_menu, parent, false)
+        val view = LayoutInflater.from(parent.context).inflate(R.layout.item_menu, parent, false)
+
         return MenuViewHolder(view)
     }
 
     override fun onBindViewHolder(holder: MenuViewHolder, position: Int) {
-        val item = items[position]
-        holder.bind(item)
+        holder.bind(categories[position])
+        holder.itemView.setBackgroundColor(android.graphics.Color.TRANSPARENT)
     }
 
-    override fun getItemCount(): Int = items.size
+    override fun getItemCount(): Int = categories.size
 
-    class MenuViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-        private val textView: TextView = itemView.findViewById(R.id.menu_item_text)
+    inner class MenuViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
+        private val categoryTextView: TextView = itemView.findViewById(R.id.menu_item_text)
 
         fun bind(menuItem: MenuItem) {
-            textView.text = menuItem.title
+            categoryTextView.text = menuItem.title
 
+            itemView.setOnClickListener { onClick(menuItem) }
+        }
+        init {
             itemView.setOnFocusChangeListener { _, hasFocus ->
                 if (hasFocus) {
-                    itemView.animate()
-                        .scaleX(1.1f)
-                        .scaleY(1.1f)
-                        .setDuration(200)
-                        .start()
+
+                    itemView.setBackgroundColor(android.graphics.Color.parseColor("#808080"))
                 } else {
-                    itemView.animate()
-                        .scaleX(1.0f)
-                        .scaleY(1.0f)
-                        .setDuration(200)
-                        .start()
+
+                    itemView.setBackgroundColor(android.graphics.Color.TRANSPARENT)
                 }
             }
         }
     }
+
+
 }

@@ -61,8 +61,8 @@ class DataParser {
                 val episodeSourceId = episode.select("td > span").eq(1)
                     .select("a")
                     .attr("id")
-                    ?.split("-")
-                    ?.lastOrNull()
+                    .split("-")
+                    .lastOrNull()
 
                 if (episodeSourceId == null) return@forEachIndexed
 

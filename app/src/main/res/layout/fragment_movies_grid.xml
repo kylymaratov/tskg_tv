@@ -10,6 +10,7 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/movies_grid"
         android:layout_width="match_parent"
+        android:descendantFocusability="afterDescendants"
         android:layout_height="match_parent"
         android:padding="16dp"
         android:scrollbars="vertical"

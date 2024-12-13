@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".MainActivity">
+    tools:context=".fragments.HomeFragment">
 
     <TextView
         android:id="@+id/errorText"
@@ -20,7 +20,7 @@
         android:id="@+id/progressBar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:visibility="visible"
+        android:visibility="gone"
         android:indeterminate="true"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -29,33 +29,23 @@
 
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/header_fragment"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_marginBottom="284dp"
-        app:layout_constraintBottom_toBottomOf="@+id/movies_list_fragment"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHeight_percent="0.5"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/spacing_guideline"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.52" />
+    android:id="@+id/header_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+        app:layout_constraintHeight_percent=".47"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+          />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/movies_list_fragment"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_marginLeft="-37dp"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="20dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHeight_percent="0.5"
-        app:layout_constraintHorizontal_bias="0.916"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/spacing_guideline" />
+        app:layout_constraintHeight_percent=".53"
+        app:layout_constraintTop_toBottomOf="@id/header_fragment" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

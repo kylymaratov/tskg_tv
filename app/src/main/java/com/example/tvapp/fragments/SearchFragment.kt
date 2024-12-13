@@ -27,6 +27,7 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.lifecycleScope
 import com.example.tvapp.MyApplication
 import com.example.tvapp.R
+import com.example.tvapp.models.Movie
 import kotlinx.coroutines.launch
 
 class SearchFragment : Fragment() {
@@ -34,10 +35,9 @@ class SearchFragment : Fragment() {
     lateinit var error_message: TextView
     lateinit var searchEditText: EditText
 
-    private lateinit var moviesListFragment: MoviesListFragment
+    lateinit var moviesGridFragment: MoviesGridFragment
     private val handler = Handler(Looper.getMainLooper())
     private var runnable: Runnable? = null
-    private val REQUEST_CODE_MICROPHONE = 100
     private var savedSearchQuery: String? = null
 
     private lateinit var speechRecognitionLauncher: ActivityResultLauncher<Intent>
@@ -61,29 +61,24 @@ class SearchFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
+        moviesGridFragment = MoviesGridFragment()
+        setFragments()
         return inflater.inflate(R.layout.fragment_search, container, false)
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-
         error_message = view.findViewById(R.id.error_message)
         progress_bar  = view.findViewById(R.id.progress_bar)
 
-        moviesListFragment = MoviesListFragment()
-
         searchEditText = view.findViewById(R.id.search_edit_text)
-        val searchButton: Button = view.findViewById(R.id.search_button)
+
 
         searchEditText.setText(savedSearchQuery)
 
         searchEditText.requestFocus()
 
-        searchButton.setOnClickListener {
-            val query = searchEditText.text.toString()
-            performSearch(query)
-        }
 
         searchEditText.setOnKeyListener { _, keyCode, event ->
             if (event.action == KeyEvent.ACTION_DOWN && keyCode == KeyEvent.KEYCODE_ENTER) {
@@ -108,57 +103,61 @@ class SearchFragment : Fragment() {
             override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) {}
             override fun onTextChanged(s: CharSequence?, start: Int, before: Int, count: Int) {}
         })
-
-        view.findViewById<Button>(R.id.voice_search_button).setOnClickListener {
-            checkMicrophonePermission()
-        }
-
-        setFragments()
-        setSearchResult()
     }
 
     private fun performSearch(query: String) {
         if (query.length > 2) {
             lifecycleScope.launch {
-                progress_bar.visibility = View.VISIBLE
-                error_message.text = ""
+                try {
+                    progress_bar.visibility = View.VISIBLE
+                    error_message.text = ""
+                    val jsonRequest = (requireActivity().application as MyApplication).jsonRequest
 
+                    val response = jsonRequest.search("/shows/search/$query")
+
+                    if (response.isSuccessful()) {
+                        val body = response.body()
+                        val movies: MutableList<Movie> = mutableListOf()
+
+                        if (body != null && body.isNotEmpty()) {
+                            for (item in body) {
+                                movies.add(
+                                    Movie(
+                                        movieId = item.url,
+                                        title = item.name,
+                                        year = "",
+                                        posterUrl = item.url,
+                                        details = null,
+                                        genre = "",
+                                        country = ""
+                                    )
+                                )
+                            }
+                            setSearchResult(movies)
+                        }else {
+                            throw IllegalStateException("Не удалось ничего найти по запросу: $query")
+                        }
+
+                    }
+                } catch (error: Exception) {
+                    moviesGridFragment.clearMoviesData()
+                    error_message.text = error.message
+                }finally {
+                    progress_bar.visibility = View.GONE
+                }
             }
         }
     }
 
     private fun setFragments() {
-        moviesListFragment = MoviesListFragment()
-
         val transaction = childFragmentManager.beginTransaction()
-        transaction.add(R.id.movies_list_fragment, moviesListFragment)
+        transaction.add(R.id.movies_list_fragment, moviesGridFragment)
         transaction.commit()
     }
 
-    private fun checkMicrophonePermission() {
-        if (ContextCompat.checkSelfPermission(requireContext(), Manifest.permission.RECORD_AUDIO)
-            != PackageManager.PERMISSION_GRANTED) {
 
-            ActivityCompat.requestPermissions(
-                requireActivity(),
-                arrayOf(Manifest.permission.RECORD_AUDIO),
-                REQUEST_CODE_MICROPHONE
-            )
-        } else {
-            startVoiceRecognition()
-        }
-    }
-
-    private fun startVoiceRecognition() {
-        val intent = Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH).apply {
-            putExtra(RecognizerIntent.EXTRA_LANGUAGE_MODEL, RecognizerIntent.LANGUAGE_MODEL_FREE_FORM)
-            putExtra(RecognizerIntent.EXTRA_PROMPT, "Говорите сейчас")
-        }
-        speechRecognitionLauncher.launch(intent)
-    }
-
-    private fun setSearchResult() {
-
+    private fun setSearchResult(movies: MutableList<Movie>) {
+        moviesGridFragment.bindMoviesData(movies, 0, 0)
     }
 
     override fun onPause() {

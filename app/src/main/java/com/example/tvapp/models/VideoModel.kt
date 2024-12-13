@@ -1,6 +1,6 @@
 package com.example.tvapp.models
 
-data class Video(
+data class VideoModel(
     val id: Int,
     val title: String,
     val name: String,

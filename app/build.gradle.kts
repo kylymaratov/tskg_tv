@@ -3,7 +3,6 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     id("kotlin-parcelize")
-
 }
 
 android {
@@ -26,21 +25,20 @@ android {
     signingConfigs {
 
         create("release") {
-            keyAlias = "home-theater-alias"
-            keyPassword = "535456kylym"
-            storeFile = file("./home-theater-release-key.jks")
-            storePassword = "535456kylym"
+            keyAlias = "tskg-alias"
+            keyPassword = "219];*9VVrYy"
+            storeFile = file("./tskg-release-key.jks")
+            storePassword = "219];*9VVrYy"
         }
     }
 
     buildTypes {
         debug {
-            buildConfigField("String", "BASE_URL", "\"https://www.ts.kg/\"")
+            buildConfigField("String", "BASE_URL", "\"https://ts.kg/\"")
         }
 
         release {
-            buildConfigField("String", "BASE_URL", "\"https://www.ts.kg/\"")
-
+            buildConfigField("String", "BASE_URL", "\"https://ts.kg/\"")
 
             signingConfig = signingConfigs.getByName("release")
             isMinifyEnabled = false
@@ -55,7 +53,7 @@ android {
             variant.outputs
                 .map { it as com.android.build.gradle.internal.api.BaseVariantOutputImpl }
                 .forEach { output ->
-                    val outputFileName = "TSKG-${variant.baseName}-${variant.versionName}-${variant.versionCode}.apk"
+                    val outputFileName = "TSKG-TV-${variant.baseName}-${variant.versionName}-${variant.versionCode}.apk"
                     output.outputFileName = outputFileName
                 }
         }
@@ -74,9 +72,6 @@ android {
     }
 
 }
-
-
-
 
 dependencies {
     implementation(libs.androidx.core.ktx)

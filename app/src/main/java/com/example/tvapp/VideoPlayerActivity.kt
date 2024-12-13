@@ -23,8 +23,8 @@ class VideoPlayerActivity : AppCompatActivity() {
     private lateinit var retryButton: Button
     private lateinit var error_container: ConstraintLayout
     private lateinit var episode_source_list: List<String>
+    private lateinit var movieTitle: TextView
     private var currentEpisodeIndex: Int = 0
-
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -32,6 +32,7 @@ class VideoPlayerActivity : AppCompatActivity() {
 
         episode_source_list = intent.getStringArrayListExtra("EPISODE_SOURCE_LIST") ?: emptyList()
         currentEpisodeIndex = intent.getIntExtra("CURRENT_EPISODE", 0)
+        movieTitle = findViewById(R.id.movie_title)
 
         player = SimpleExoPlayer.Builder(this).build()
         playerView = findViewById(R.id.player_view)
@@ -50,19 +51,27 @@ class VideoPlayerActivity : AppCompatActivity() {
     }
 
     private fun playEpisode(episode_source_id: String) {
-        val request = (application as MyApplication).request
+        val request = (application as MyApplication).jsonRequest
+
+        error_container.visibility = View.GONE
+        error_container.findViewById<TextView>(R.id.text_error).text = ""
 
         lifecycleScope.launch {
-            val result = request.getEpisode(episode_source_id)
-            val body = result.body()
+            try {
+                val result = request.getEpisode(episode_source_id)
+                val body = result.body()
 
-            println(body)
-            if (body?.video != null) {
-                val mediaItem = MediaItem.fromUri(body.video.url)
-                player.setMediaItem(mediaItem)
-                player.prepare()
-                player.play()
-                playerView.keepScreenOn = true
+                body?.let {
+                    movieTitle.text = it.showName + " - " + it.title
+                    val mediaItem = MediaItem.fromUri(it.video.url)
+                    player.setMediaItem(mediaItem)
+                    player.prepare()
+                    player.play()
+                    playerView.keepScreenOn = true
+                }
+            } catch (error: Exception) {
+                error_container.visibility = View.VISIBLE
+                error_container.findViewById<TextView>(R.id.text_error).text = error.message
             }
         }
 
@@ -71,6 +80,14 @@ class VideoPlayerActivity : AppCompatActivity() {
     private fun setupPlayerListener(episodeUrl: String) {
         retryButton.setOnClickListener {
             retryPlayback(episodeUrl)
+        }
+
+        playerView.setControllerVisibilityListener { visibility ->
+            if (visibility == View.VISIBLE) {
+                movieTitle.visibility = View.VISIBLE
+            } else {
+                movieTitle.visibility = View.GONE
+            }
         }
 
         player.addListener(object : Player.Listener {
@@ -105,7 +122,6 @@ class VideoPlayerActivity : AppCompatActivity() {
             ExoPlaybackException.TYPE_UNEXPECTED -> "Неожиданная ошибка: ${error.message}"
             else -> "Неизвестная ошибка: ${error.message}"
         }
-
 
         player.stop()
 

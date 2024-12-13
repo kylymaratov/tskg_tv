@@ -23,8 +23,6 @@ import com.example.tvapp.models.Movie
  import com.example.tvapp.models.MoviesList
  import com.example.tvapp.presenters.MovieListPresenter
 
-
-
 class MoviesListFragment : RowsSupportFragment() {
     private var runnable: Runnable? = null
     private var handler: Handler? = null
@@ -55,7 +53,6 @@ class MoviesListFragment : RowsSupportFragment() {
         if (movies.isNotEmpty()) {
             rootAdapter.clear()
             createListRow(movies)
-            setSelectedPosition(0, true)
         }
     }
 

@@ -1,5 +1,6 @@
 package com.example.tvapp.fragments
 
+import android.animation.ObjectAnimator
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper

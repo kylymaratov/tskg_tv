@@ -72,18 +72,20 @@ class SeriesListFragment : RowsSupportFragment() {
         startActivity(intent)
     }
 
-    fun getSeasonsFromRootAdapter(season_id: Int): List<MovieEpisode>? {
-        val listRow = (0 until rootAdapter.size()).map { rootAdapter.get(it) as ListRow }
+    fun getSeasonsFromRootAdapter(seasonId: Int): List<MovieEpisode>? {
+        return (0 until rootAdapter.size())
+            .asSequence()
+            .mapNotNull { rootAdapter.get(it) as? ListRow }
             .find { row ->
                 val seasonHeader = row.headerItem.name
-                val currentSeasonId = seasonHeader.replace("Сезон: ", "").toInt()
-                currentSeasonId == season_id
+                val currentSeasonId = seasonHeader.removePrefix("Сезон: ").toIntOrNull()
+                currentSeasonId == seasonId
+            }?.let { row ->
+                val arrayObjectAdapter = row.adapter as? ArrayObjectAdapter
+                arrayObjectAdapter?.let {
+                    (0 until it.size()).mapNotNull { index -> it.get(index) as? MovieEpisode }
+                }
             }
-
-        return listRow?.let { row ->
-            val arrayObjectAdapter = row.adapter as ArrayObjectAdapter
-            (0 until arrayObjectAdapter.size()).map { arrayObjectAdapter.get(it) as MovieEpisode}
-        }
     }
 
 
@@ -114,7 +116,8 @@ class SeriesListFragment : RowsSupportFragment() {
                     val currentSeasonId = seasonHeader.replace("Сезон: ", "").toInt()
 
                     val episodes = getSeasonsFromRootAdapter(currentSeasonId)
-                    if (episodes != null) {
+
+                    if (episodes != null && episodes.isNotEmpty()) {
                          openVideo(episodes, item.episodeId)
                     }
                 }

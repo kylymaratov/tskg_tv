@@ -26,7 +26,7 @@ class MovieListPresenter : Presenter() {
 
     override fun onBindViewHolder(viewHolder: ViewHolder?, item: Any?) {
         val content = item as Movie
-        val movieCover: ImageView =viewHolder?.view?.findViewById(R.id.poster_image) ?: return
+        val movieCover: ImageView = viewHolder?.view?.findViewById(R.id.poster_image) ?: return
 
         val params = viewHolder.view.layoutParams
 
