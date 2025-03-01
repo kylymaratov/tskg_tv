@@ -1,11 +1,9 @@
 import { ipcMain, IpcMainInvokeEvent } from 'electron'
 
-ipcMain.handle(
-  'node-version',
-  (event: IpcMainInvokeEvent, msg: string): string => {
-    console.log(event)
-    console.log(msg)
+ipcMain.handle('node-version', (event: IpcMainInvokeEvent): string => {
+  return process.versions.node
+})
 
-    return process.versions.node
-  }
-)
+ipcMain.handle('home-page', (event: IpcMainInvokeEvent): string => {
+  return 'hompage'
+})

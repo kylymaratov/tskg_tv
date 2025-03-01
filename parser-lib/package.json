@@ -1,15 +1,18 @@
 {
-  "name": "server",
+  "name": "parser-lib",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "nodemon --watch src src/test.ts",
     "build": "npx tsc"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "ts-kg",
+    "parser"
+  ],
+  "author": "klm",
   "license": "ISC",
-  "description": "",
+  "description": "Parser for ts.kg website",
   "dependencies": {
     "axios": "^1.8.1",
     "cheerio": "^1.0.0",
