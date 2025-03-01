@@ -1,0 +1,32 @@
+{
+  "name": "desktop",
+  "private": true,
+  "version": "0.0.0",
+  "main": "dist/main.js",
+  "scripts": {
+    "dev": "concurrently \"vite\" \"cross-env DEV= tsc-watch -p tsconfig.electron.json --onSuccess \\\"electron .\\\"\"",
+    "preview": "vite build && tsc -p tsconfig.electron.json && cross-env PREVIEW= electron .",
+    "build": "vite build && tsc -p tsconfig.electron.json && electron-forge make"
+  },
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.21.0",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@vitejs/plugin-react": "^4.3.4",
+    "concurrently": "^9.1.2",
+    "electron": "^34.3.0",
+    "eslint": "^9.21.0",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "globals": "^15.15.0",
+    "tsc-watch": "^6.2.1",
+    "typescript": "~5.7.2",
+    "typescript-eslint": "^8.24.1",
+    "vite": "^6.2.0"
+  }
+}
